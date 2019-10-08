@@ -22,7 +22,8 @@ switch ($url){
     require("../Sources/Views/Contactanos.php");
     break;
   default:
-      require_once __DIR__ . '/index.php';
+      // require_once __DIR__ . '/Inicio.php';
+      require("../Sources/Views/Inicio.php");
       break;
 }
 require("../Sources/Components/footer.html");

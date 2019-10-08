@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS Link -->
     <link rel="stylesheet" href="../../Sources/CSS/mision.css">
-    <title></title>
+    <title>Mision</title>
   </head>
   <body>
     <h2>Mision, Vision y Objetivos</h2>
-
     <h3>Mision</h3>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor
