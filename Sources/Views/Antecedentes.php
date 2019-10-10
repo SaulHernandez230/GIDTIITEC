@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="../../Sources/CSS/antecedentes.css">
-    <title></title>
-  </head>
-  <body>
+<link rel="stylesheet" href="/proyectos/GIDTIITEC/Sources/CSS/antecedentes.css">
+<body>
+  <div id="Antecedentes">
     <h2>Antecedentes</h2>
     <img src="../../Sources/Img/logoUABCS.png">
     <p>
@@ -22,5 +15,5 @@
       commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-  </body>
-</html>
+  </div>
+</body>

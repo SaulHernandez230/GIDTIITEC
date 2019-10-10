@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="../../Sources/CSS/mision.css">
-    <title>Mision</title>
-  </head>
-  <body>
+<body>
+  <div id="Mision">
     <h2>Mision, Vision y Objetivos</h2>
     <h3>Mision</h3>
     <p>
@@ -37,5 +29,5 @@
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-  </body>
-</html>
+  </div>
+</body>

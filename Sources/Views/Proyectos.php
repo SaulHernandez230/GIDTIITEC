@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="../../Sources/CSS/proyectos.css">
-    <title></title>
-  </head>
-  <body>
+<body>
+  <div id="Proyectos">
     <h2>Proyectos</h2>
     <!--CAROUSEL-->
     <div class="bd-example">
@@ -111,5 +103,5 @@
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div>
-  </body>
-</html>
+  </div>
+</body>
