@@ -1,9 +1,28 @@
+#Antecedentes{
+  display: inline-block;
+  background: rgb(245, 245, 243);
+}
+
+#Antecedentes img{
+  margin: 2% 12%;
+  width: 75%;
+}
+#Antecedentes p{
+  margin: 5% 3%;
+  text-align: justify;
+  background: rgb(239,238, 236);
+}
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
+  #Antecedentes img{ margin: 2% 15%; width: 65%}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
+  #Antecedentes h2{text-align: center;}
+  #Antecedentes img{float: left; margin: 3% 2%; width:49%; max-height: 400px;}
+  #Antecedentes p {float: right; margin: 2% 3% 0%; width:41%;}
+  #Antecedentes #firstP{margin: 3% 3% 0%;}
 }
 
 /* Large devices (desktops, 1024px and up) */

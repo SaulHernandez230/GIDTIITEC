@@ -1,3 +1,16 @@
+#Mision h2{
+  font-size: 25px;
+  text-align: center;
+}
+#Mision h3{
+  margin-left: 5%;
+}
+#Mision p{
+  margin: 3% 5%;
+  width: 90%;
+  text-align: justify;
+}
+
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
 }

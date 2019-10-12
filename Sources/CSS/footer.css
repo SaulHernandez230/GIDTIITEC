@@ -1,3 +1,8 @@
+footer{
+  display: inline-block;
+  margin-top: 4%;
+  text-align: center;
+}
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
 }
