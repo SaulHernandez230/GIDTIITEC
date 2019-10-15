@@ -1,5 +1,12 @@
+*{
+  box-sizing: border-box;
+}
+#Mision{
+  display: inline-block;
+}
 #Mision h2{
-  font-size: 25px;
+  margin: 2% 0;
+  font-size: 26px;
   text-align: center;
 }
 #Mision h3{
@@ -17,6 +24,7 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
+  #Mision p{ font-size: 18px;}
 }
 
 /* Large devices (desktops, 1024px and up) */

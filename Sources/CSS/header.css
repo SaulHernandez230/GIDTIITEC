@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   display: inline-block;
   width: 100%;
@@ -11,8 +14,8 @@ header a{
   color: black;
 }
 header ol{
-  width: 100%;
   display: inline-block;
+  width: 100%;
 }
 header li{
   display: inline;
@@ -28,7 +31,7 @@ header li{
   header img{ width: 17%;}
   #navbarNav{ width: 100%;}
   #navbarNav div{width: 100%;}
-  header div a{ text-align: center; font-size: 14px; font-weight: 600; width: 20%;}
+  header div a{ width: 20%; text-align: center; font-size: 14px; font-weight: 600;}
 }
 
 /* Large devices (desktops, 1024px and up) */

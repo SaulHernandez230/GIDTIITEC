@@ -1,17 +1,83 @@
-/* Small devices (landscape phones, 480px and up) */
+*{
+  box-sizing: border-box;
+}
+#Proyectos{
+  display: inline-block;
+}
+#Proyectos h2{
+  margin: 0 2%;
+}
+#carousel{
+  margin: 2% 0;
+  padding: 2%;
+  width: 100%;
+}
+#carousel iframe{
+  width: 100%;
+}
+.proyect{
+  display: inline-block;
+  margin: 3% 0;
+  width: 100%;
+  height: auto;
+  background: rgb(245, 245, 243);
+}
+.proyect h3,img,p{
+  margin: 2% 5%;
+  width: 90%;
+}
+.proyect img{
+  border-radius: 6px;
+  /* box-shadow: 0 0 25px rgba(76,176,76,1);} */
+}
+.proyect h3{
+  text-align: center;
+  font-size: 23px;
+}
+.proyect p{
+  text-align: justify;
+}
+.proyect button{
+  float: right;
+  margin: 4% 7% 3% 0%;
+  width: 40%;
+  max-width: 155px;
+  font-size: 20px;
+  font-weight: 500;
+  background: rgb(203, 105, 5);
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+/*devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
+  .proyect h3 {margin-top:3%; font-size: 29px; font-weight: 500}
+  .proyect img,p{margin: 2% 13%; width: 75%;}
+  .proyect button{ margin: 2% 13% 3% 0%; width: 32%; max-width: 170px; font-size: 22px;}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
+  #Proyectos h2{margin: 1% 0%; text-align: center;}
+  #carousel iframe{ height: 400px;}
+  .proyect img {float: left; margin: 2% 3% 0%;  width: 35%; height: 290px;}
+  .button-container{float: left; margin: 2% 2% 3% 0%; width: 55%; height: auto;}
+  .proyect p {float: left; margin: 0; width: 100%; min-height: 240px; font-size:18px;}
+  .proyect button{margin: 2% 2%;}
 }
 
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
+  #carousel iframe{ height: 450px;}
+  .proyect{margin: 2% 0;}
+  .proyect p {font-size:20px;}
+  .proyect button{ min-height:40px; font-size: 23px;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px)
 {
+  #carousel iframe{ height: 500px;}
+  .proyect p {font-size:22px;}
 }

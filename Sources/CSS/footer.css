@@ -1,7 +1,15 @@
+*{
+  box-sizing: border-box;
+}
 footer{
   display: inline-block;
   margin-top: 4%;
+  width: 100%;
   text-align: center;
+  background: rgb(245, 245, 243);
+}
+footer a{
+  text-decoration: none !important; 
 }
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
