@@ -9,7 +9,11 @@ footer{
   background: rgb(245, 245, 243);
 }
 footer a{
-  text-decoration: none !important; 
+  text-decoration: none !important;
+}
+footer span{
+  font-size: 3em;
+  color: Red;
 }
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){

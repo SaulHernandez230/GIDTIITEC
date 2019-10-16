@@ -31,17 +31,18 @@ header li{
   header img{ width: 17%;}
   #navbarNav{ width: 100%;}
   #navbarNav div{width: 100%;}
-  header div a{ width: 20%; text-align: center; font-size: 14px; font-weight: 600;}
+  header div a{ width: 20%; text-align: center; font-size: 17px; font-weight: 600;}
 }
 
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
   header img{ width: 17%;}
-  header div a{font-size: 18px;}
+  header div a{font-size: 19px;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px)
 {
+  header div a{font-size: 21px;}
 }

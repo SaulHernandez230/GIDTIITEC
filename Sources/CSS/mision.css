@@ -4,11 +4,6 @@
 #Mision{
   display: inline-block;
 }
-#Mision h2{
-  margin: 2% 0;
-  font-size: 26px;
-  text-align: center;
-}
 #Mision h3{
   margin-left: 5%;
 }
@@ -16,6 +11,14 @@
   margin: 3% 5%;
   width: 90%;
   text-align: justify;
+}
+#Mision ul{
+  margin: 3% 5%;
+  width: 90%;
+  text-align: justify;
+}
+#Mision li{
+  width: 90%;
 }
 
 /* Small devices (landscape phones, 480px and up) */
@@ -30,6 +33,12 @@
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
+  .M,.VO h3{text-align: center;}
+  .OE h3{padding-left:2%; }
+  .M{width: 90%; margin:2% 5%; }
+  .VO{float: left; margin: 1% 1% 1% 8%;  width: 37%; height: auto;}
+  .OE{ display: inline-block; margin:2% 3%; width: 90%; height: auto;}
+  
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
