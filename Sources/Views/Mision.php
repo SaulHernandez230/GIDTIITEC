@@ -3,7 +3,7 @@
     <!-- <h2>Mision, Vision y Objetivos</h2> -->
     <div class="M">
       <h3>Mision</h3>
-      <p aria-label=" Mision de GIDTIITEC ">
+      <p aria-label="Misión de GIDTIITEC" id="parrafo1">
         Somos un equipo multidisciplinario dedicado a contribuir y fomentar la investigación, análisis, e innovación,
         así como la difusión de la cultura tecnológica y educativa, desarrollando y aplicando tecnología inclusiva y
         educativa favoreciendo el progreso y la mejora de la calidad de vida de comunidades a través de las Tecnologías
@@ -12,7 +12,7 @@
     </div>
     <div class="VO">
       <h3>Vision</h3>
-      <p aria-label=" Vision de GIDTIITEC ">
+      <p aria-label=" Visión de GIDTIITEC" id="parrafo2">
         Seremos un grupo de investigación referente y de vanguardia en investigación, innovación y desarrollo de
         proyectos inclusivos e innovación educativa permitiendo reducir la brecha tecnológica en los sectores mas
         vulnerables.
@@ -20,7 +20,7 @@
     </div>
     <div class="VO">
       <h3>Objetivos</h3>
-      <p aria-label=" Objetivos de GIDTIITEC ">
+      <p aria-label=" Objetivos de GIDTIITEC " id="parrafo3">
         Generar y aplicar nuevos conocimientos para el desarrollo tecnológico y la innovación en los campos de
         inclusión y educación, mediante el uso de nuevas tecnologías y herramientas.
       </p>
@@ -60,5 +60,22 @@
         </li>
       </ul
     </div>
+    <button type="button" id="button">escuchar</button>
+     <script>
+     document.getElementById('button').addEventListener("click",()=>{
+       var parrafo1 = document.getElementById("parrafo1").textContent;
+       var parrafo2 = document.getElementById("parrafo2").textContent;
+       var parrafo3 = document.getElementById("parrafo3").textContent;
+       decir("Misión",parrafo1)
+       decir("Visión",parrafo2)
+       decir("Objetivos",parrafo3)
+
+     });
+     function decir(titulo,texto){
+       speechSynthesis.speak(new SpeechSynthesisUtterance(titulo));
+       speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
+     }
+     </script>
+
   </div>
 </body>
