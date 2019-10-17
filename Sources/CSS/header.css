@@ -21,6 +21,7 @@ header li{
   display: inline;
   color: red;
 }
+
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
   header img{width: 40%}

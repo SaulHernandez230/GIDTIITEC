@@ -60,22 +60,5 @@
         </li>
       </ul
     </div>
-    <button type="button" id="button">escuchar</button>
-     <script>
-     document.getElementById('button').addEventListener("click",()=>{
-       var parrafo1 = document.getElementById("parrafo1").textContent;
-       var parrafo2 = document.getElementById("parrafo2").textContent;
-       var parrafo3 = document.getElementById("parrafo3").textContent;
-       decir("Misión",parrafo1)
-       decir("Visión",parrafo2)
-       decir("Objetivos",parrafo3)
-
-     });
-     function decir(titulo,texto){
-       speechSynthesis.speak(new SpeechSynthesisUtterance(titulo));
-       speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
-     }
-     </script>
-
   </div>
 </body>
