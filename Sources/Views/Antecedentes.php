@@ -1,7 +1,7 @@
 <body>
   <div id="Antecedentes">
     <h2>Antecedentes</h2>
-    <img src="../../Sources/Img/antecedentes.jpg">
+    <img src="../../Sources/Img/antecedentes.png">
     <p id="parrafo1">
       Sin lugar a dudas el mérito se mide por los logros. Así, el GIDTIITEC ha producido valiosos proyectos que se han
        aplicado a diversos sectores y comunidades que reflejan el espíritu solidario de quienes componen este gran grupo.
