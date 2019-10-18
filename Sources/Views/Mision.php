@@ -31,26 +31,26 @@
 
       <ul role="list" aria-label="Lista de objetivos Especificos">
         <!--objetivo especifico-->
-        <li role="listitem" aria-label="objetivo 1">
+        <li id="objetivo1" role="listitem" aria-label="objetivo 1">
           Mejorar la calidad de vida en los grupos vulnerables,a través de la generación de tecnologías inclusivas y
           educativas.
         </li>
         <!--objetivo especifico-->
         <li role="listitem" aria-label="objetivo 2"> Ayudar a tener mejor calidad de vida a los grupos vulnerables.</li>
         <!--objetivo especifico-->
-        <li role="listitem" aria-label="objetivo 3">
+        <li id="objetivo2" role="listitem" aria-label="objetivo 3">
           Potenciar la capacidad académica de los estudiantes de los diferentes niveles educativos.
         </li>
         <!--objetivo especifico-->
-        <li role="listitem" aria-label="objetivo 4">
+        <li id="objetivo3" role="listitem" aria-label="objetivo 4">
           Responder a las necesidades y expectativas pertinentes de los usuarios finales.
         </li>
         <!--objetivo especifico-->
-        <li role="listitem" aria-label="objetivo 5">
-          Brindar asesorías en investigación, desarrollo y aplicación de tecnologías inclusivas y educativas
+        <li id="objetivo4" role="listitem" aria-label="objetivo 5">
+          Brindar asesorías en investigación, desarrollo y aplicación de tecnologías inclusivas y educativas.
         </li>
         <!--objetivo especifico-->
-        <li role="listitem" aria-label="objetivo 6">
+        <li id="objetivo5" role="listitem" aria-label="objetivo 6">
           Brindar asesorías en la elaboración y desarrollo de tesis de licenciatura y posgrado.
         </li>
         <!--objetivo especifico-->

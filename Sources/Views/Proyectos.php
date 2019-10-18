@@ -71,13 +71,13 @@
       <h3>Silla de ruedas motorizada</h3>
       <img src="../../Sources/Img/S4.png">
       <div class="button-container">
-        <p>
+        <p id="proyecto1">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" role="button">Galeria</button>
+        <button id="btn1" type="button" role="button" data-toggle="modal" data-target="#gallery" >Galeria</button>
         <span class="sr-only">Galeria</span>
       </div>
     </div>
@@ -86,13 +86,13 @@
       <h3>Hybri-voz</h3>
       <img src="../../Sources/Img/H4.png">
       <div class="button-container">
-        <p>
+        <p id="proyecto2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" role="button">Galeria</button>
+        <button id="btn2" type="button" role="button" data-toggle="modal" data-target="#gallery" >Galeria</button>
         <span class="sr-only">Galeria</span>
       </div>
     </div>
@@ -101,13 +101,13 @@
       <h3>Con Ciencia Pi</h3>
       <img src="../../Sources/Img/C4.jpg">
       <div class="button-container">
-        <p>
+        <p id="proyecto3">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" role="button">Galeria</button>
+        <button id="btn3" type="button" role="button"  data-toggle="modal" data-target="#gallery" >Galeria</button>
         <span class="sr-only">Galeria</span>
       </div>
     </div>
@@ -116,13 +116,13 @@
       <h3>Fidem Pad</h3>
       <img src="../../Sources/Img/F4.png">
       <div class="button-container">
-        <p>
+        <p id="proyecto4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" role="button">Galeria</button>
+        <button id="btn4" type="button" role="button"  data-toggle="modal" data-target="#gallery">Galeria</button>
         <span class="sr-only">Galeria</span>
       </div>
     </div>
@@ -131,13 +131,13 @@
       <h3>ComuniKT</h3>
       <img src="../../Sources/Img/K4.png">
       <div class="button-container">
-        <p>
+        <p id="proyecto5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" role="button">Galeria</button>
+        <button id="btn5" type="button" role="button" data-toggle="modal" data-target="#gallery">Galeria</button>
         <span class="sr-only">Galeria</span>
       </div>
     </div>
@@ -146,13 +146,13 @@
       <h3>Sam Speech</h3>
       <img src="../../Sources/Img/p4.jpg">
       <div class="button-container">
-        <p>
+        <p id="proyecto6">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" role="button">Galeria</button>
+        <button id="btn6" type="button" role="button" data-toggle="modal" data-target="#gallery">Galeria</button>
         <span class="sr-only">Galeria</span>
       </div>
     </div>
@@ -161,30 +161,61 @@
       <h3>Guante ultrasónico</h3>
       <img src="../../Sources/Img/G4.jpg">
       <div class="button-container">
-        <p>
+        <p id="proyecto7">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" role="button">Galeria</button>
+        <button id="btn7" type="button" role="button" data-toggle="modal" data-target="#gallery">Galeria</button>
         <span class="sr-only">Galeria</span>
       </div>
     </div>
     <!--proyect 8-->
     <div class="proyect">
-      <h3>Robot controldo por señales del cerebro</h3>
+      <h3>Robot controlado por señales del cerebro</h3>
       <img src="../../Sources/Img/M4.jpg">
       <div class="button-container">
-        <p>
+        <p id="proyecto8">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button type="button" role="button">Galeria</button>
+        <button id="btn8" type="button" role="button" data-toggle="modal" data-target="#gallery">Galeria</button>
         <span class="sr-only">Galeria</span>
       </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="gallery" tabindex="-1" role="dialog" aria-labelledby="Proyect Gallery" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryTittle">Titulo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img id="img1"src="../../Sources/Img/M4.jpg">
+            <h4 id="desc1"class="img-description">Descripción de la imagen</h4>
+
+            <img id="img2"src="../../Sources/Img/F4.png">
+            <h4 id="desc2"class="img-description">Descripción del Proyecto</h4>
+
+            <img id="img3"src="../../Sources/Img/G4.jpg">
+            <h4 id="desc3"class="img-description">Descripción del Proyecto</h4>
+
+            <img id="img4"src="../../Sources/Img/p4.jpg">
+            <h4 id="desc4"class="img-description">Descripción del Proyecto</h4>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </body>
