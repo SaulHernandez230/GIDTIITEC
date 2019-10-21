@@ -1,8 +1,8 @@
 <body>
   <div id="Proyectos">
-    <h2>Proyectos</h2>
     <!--CAROUSEL-->
     <div id="carousel" >
+      <h2>Proyectos</h2>
       <div id="carouselOptions" class="carousel slide">
         <ol class="carousel-indicators">
           <li data-target="#options" data-slide-to="0" class="active"></li>
@@ -221,7 +221,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="galleryTittle">Titulo</h5>
+            <h3 class="modal-title" id="galleryTittle">Titulo</h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -233,11 +233,10 @@
             <img id="img4">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+            <button type="button" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </body>

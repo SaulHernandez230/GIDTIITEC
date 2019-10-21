@@ -5,12 +5,12 @@
   display: inline-block;
 }
 #Proyectos h2{
-  margin: 0 2%;
+  margin: 1% 2% 1%;
 }
 #carousel{
-  margin: 2% 0;
-  padding: 2%;
+  margin: 1% 0;
   width: 100%;
+  background: rgb(245, 245, 243);
 }
 #carousel iframe{
   width: 100%;
@@ -37,7 +37,7 @@
 .proyect p{
   text-align: justify;
 }
-.button-container button{
+.button-container button , .modal-footer button{
   float: right;
   margin: 4% 7% 3% 0%;
   width: 40%;
@@ -49,8 +49,19 @@
   border-radius: 5px;
   border-style: none;
 }
-#Proyectos h4{
-  text-align: center;
+ #Proyectos .modal-body, .modal-header, .modal-footer{
+   background: rgb(239,238, 236);
+}
+
+#Proyectos .modal-header h3{
+  margin: 1% 0%;
+  margin-left: 11%;
+}
+#Proyectos .modal-footer button{
+  float: none;
+  width: 20%;
+  height: 35px;
+
 }
 /*devices (landscape phones, 480px and up) */
 @media (min-width: 480px){

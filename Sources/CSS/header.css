@@ -11,17 +11,17 @@ header img{
   width: 60%;
 }
 header a{
-  color: black;
+  color:black
 }
 header ol{
   display: inline-block;
+  margin: 0;
   width: 100%;
 }
 header li{
   display: inline;
-  color: red;
+  margin: 1% 0;
 }
-
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
   header img{width: 40%}
