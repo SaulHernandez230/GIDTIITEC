@@ -22,6 +22,9 @@ header li{
   display: inline;
   margin: 1% 0;
 }
+#nav button{
+  display: none;
+}
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
   header img{width: 40%}

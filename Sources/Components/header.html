@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/proyectos/GIDTIITEC/Sources/CSS/antecedentes.css">
     <link rel="stylesheet" href="/proyectos/GIDTIITEC/Sources/CSS/proyectos.css">
     <link rel="stylesheet" href="/proyectos/GIDTIITEC/Sources/CSS/mision.css">
+    <link rel="stylesheet" href="/proyectos/GIDTIITEC/Sources/CSS/altoContraste.css">
 
     <!-- JQ Script-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -20,13 +21,16 @@
   </head>
   <header>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light" aria-label="Main Navegation" role="menubar">
+    <nav id="nav" class="navbar navbar-expand-md navbar-light bg-dark" aria-label="Main Navegation" role="menubar">
       <!--LOGO-->
       <img class="navbar-brand" src="/proyectos/GIDTIITEC/Sources/Img/gidtiitec.png" role="banner" aria-label="GIDTIITEC Logo">
-      <!-- SPEECH BUTTON -->
-      <button class="btn btn-sm btn-outline-secondary" type="button" id="button" onclick="startSpeech()">escuchar</button>
-      <!-- HIGH CONTRAST  BUTTON -->
-      <button class="btn btn-sm btn-outline-secondary" type="button" id="button" onclick="stopSpeech()">detener</button>
+      <!-- START SPEECH BUTTON -->
+      </button>
+      <button class="fas fa-play" class="btn btn-sm btn-outline-secondary" type="button" onclick="startSpeech()">
+      <!-- STOP SPEECH BUTTON -->
+      <button class="fas fa-stop" class="btn btn-sm btn-outline-secondary" type="button" onclick="stopSpeech()"></button>
+      <!-- HIGH CONTRAST BUTTON -->
+      <button class="fas fa-adjust" class="btn btn-sm btn-outline-secondary" type="button" id="highContrast" onclick="highContrast()"></button>
 
       <!-- NAVBAR BUTTON -->
       <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

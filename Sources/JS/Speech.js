@@ -30,11 +30,13 @@
       var parrafo2 = document.getElementById("parrafo2").textContent;
       var parrafo3 = document.getElementById("parrafo3").textContent;
 
-      var proyecto1 = document.getElementById("objetivo1").textContent;
-      var proyecto2 = document.getElementById("objetivo2").textContent;
-      var proyecto3 = document.getElementById("objetivo3").textContent;
-      var proyecto4 = document.getElementById("objetivo4").textContent;
-      var proyecto5 = document.getElementById("objetivo5").textContent;
+      var objetivo1 = document.getElementById("objetivo1").textContent;
+      var objetivo2 = document.getElementById("objetivo2").textContent;
+      var objetivo3 = document.getElementById("objetivo3").textContent;
+      var objetivo4 = document.getElementById("objetivo4").textContent;
+      var objetivo5 = document.getElementById("objetivo5").textContent;
+      var objetivo6 = document.getElementById("objetivo6").textContent;
+      var objetivo7 = document.getElementById("objetivo7").textContent;
 
       speech("Misión",parrafo1)
       speech("Visión",parrafo2)
@@ -45,6 +47,8 @@
       speech("",objetivo3)
       speech("",objetivo4)
       speech("",objetivo5)
+      speech("",objetivo6)
+      speech("",objetivo7)
     }
     function proyectos(){
       var proyecto1 = document.getElementById("proyecto1").textContent;
@@ -75,7 +79,6 @@
     }
     function startSpeech(){
       var currentPage = getURI()
-      alert(currentPage)
       var fn = window[currentPage]
       fn()
 

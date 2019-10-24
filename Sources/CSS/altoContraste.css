@@ -1,0 +1,18 @@
+#Antecedentes,.proyect,#carousel{
+  background-color: black;
+}
+p{
+  color:white;
+}
+a,li,h3,h6,h2{
+  color: white;
+}
+body,footer{
+  background: darkGray;
+}
+.proyect button{
+  background: gray;
+}
+#navbarNav a {
+  color:white;
+}

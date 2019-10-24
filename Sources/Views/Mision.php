@@ -36,25 +36,25 @@
           educativas.
         </li>
         <!--objetivo especifico-->
-        <li role="listitem" aria-label="objetivo 2"> Ayudar a tener mejor calidad de vida a los grupos vulnerables.</li>
+        <li  id="objetivo2" role="listitem" aria-label="objetivo 2"> Ayudar a tener mejor calidad de vida a los grupos vulnerables.</li>
         <!--objetivo especifico-->
-        <li id="objetivo2" role="listitem" aria-label="objetivo 3">
+        <li id="objetivo3" role="listitem" aria-label="objetivo 3">
           Potenciar la capacidad académica de los estudiantes de los diferentes niveles educativos.
         </li>
         <!--objetivo especifico-->
-        <li id="objetivo3" role="listitem" aria-label="objetivo 4">
+        <li id="objetivo4" role="listitem" aria-label="objetivo 4">
           Responder a las necesidades y expectativas pertinentes de los usuarios finales.
         </li>
         <!--objetivo especifico-->
-        <li id="objetivo4" role="listitem" aria-label="objetivo 5">
+        <li id="objetivo5" role="listitem" aria-label="objetivo 5">
           Brindar asesorías en investigación, desarrollo y aplicación de tecnologías inclusivas y educativas.
         </li>
         <!--objetivo especifico-->
-        <li id="objetivo5" role="listitem" aria-label="objetivo 6">
+        <li id="objetivo6" role="listitem" aria-label="objetivo 6">
           Brindar asesorías en la elaboración y desarrollo de tesis de licenciatura y posgrado.
         </li>
         <!--objetivo especifico-->
-        <li role="listitem" aria-label="objetivo 7">
+        <li id="objetivo7" role="listitem" aria-label="objetivo 7">
           Consolidar el Laboratorio de Desarrollo de Tecnologías Inclusivas e Innovación Educativa de la
           Universidad Autónoma de Baja California Sur.
         </li>
