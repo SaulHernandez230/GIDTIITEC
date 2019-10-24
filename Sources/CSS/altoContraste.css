@@ -1,5 +1,5 @@
-#Antecedentes,.proyect,#carousel{
-  background-color: black;
+#Antecedentes,.proyect,#carousel,#Mision,body{
+  background: black;
 }
 p{
   color:white;
@@ -7,12 +7,15 @@ p{
 a,li,h3,h6,h2{
   color: white;
 }
-body,footer{
+footer{
   background: darkGray;
 }
-.proyect button{
+footer,.proyect button{
   background: gray;
 }
 #navbarNav a {
   color:white;
+}
+#nav {
+  background: black;
 }

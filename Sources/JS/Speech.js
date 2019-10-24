@@ -5,11 +5,11 @@
       var url = []
       url[0]="dft"
 
+      if(request[5] != ""){
+        url=request[5].split(".")
+      }
       if(request[6] != ""){
         url=request[6].split(".")
-      }
-      if(request[7] != ""){
-        url=request[7].split(".")
       }
 
       return url[0].toLowerCase()

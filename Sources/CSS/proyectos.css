@@ -37,7 +37,7 @@
 .proyect p{
   text-align: justify;
 }
-.button-container button , .modal-footer button{
+#Proyectos .button-container button , .modal-footer button{
   float: right;
   margin: 4% 7% 3% 0%;
   width: 40%;

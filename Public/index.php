@@ -5,11 +5,10 @@ $url = "";
 require("../Sources/Components/Header.html");
 
 /*Validacion de uri*/
+if(isset($request[4]))
+  $url=$request[4];
 if(isset($request[5]))
   $url=$request[5];
-if(isset($request[6]))
-  $url="";
-
 switch ($url){
   case 'Antecedentes.php':
     require("../Sources/Views/Antecedentes.php");
