@@ -39,7 +39,7 @@
   float: right; margin: 3% 4% 0% 0%; width: 43%;
   min-height: 265px; font-size: 17px; max-height: 295px;
 }
-  #timeLine { display: initial; width: 90%;}
+  #Antecedentes #timeLine { display: initial; width: 90%;}
 }
 
 /* Large devices (desktops, 1024px and up) */

@@ -1,11 +1,15 @@
 <body>
   <div id="Inicio">
-    <!-- <img id="bienvenida" src="../../Sources/Img/bienvenida.png" aria-labely="Grupo de invesitgacion y desarrollo de Tecnologias Inclusivas">
-    <h1>Grupo de Investigación en Desarrollo de Tecnologías Inclusivas e Innovación Educativa</h1> -->
+    <div>
+      <a id="a3" class="btn btn-success">Proyectos</a>
+      <a id="a6" class="btn btn-secondary">Contactanos</a>
+      <img id="bienvenida" src="/GIDTIITEC/Sources/Img/bienvenida.png" aria-labely="Grupo de invesitgacion y desarrollo de Tecnologias Inclusivas">
+      <h1>Grupo de Investigación en Desarrollo de Tecnologías Inclusivas e Innovación Educativa</h1>
+    </div>
 
-    <h2>Acerca de Nosotros</h2>
-    <span class="sr-only">Acerca de nosotros</span>
-    <img src="../Sources/Img/grupo.png" >
+    <img src="/GIDTIITEC/Sources/Img/grupo.png" >
+    <span class="sr-only">¿Quienes Somos?</span>
+    <h2>¿Quienes Somos?</h2>
     <p>
       El Grupo de Investigación de Desarrollo de Tecnologías Inclusivas e Innovación Educativa es
       una instancia académica del Departamento Académico de Sistemas Computacionales, que se dedica

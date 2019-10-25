@@ -21,8 +21,10 @@ $(document).ready(function(){
 
   var anchor = document.getElementById(sessionStorage.getItem("anchorId"))
   var bread = document.getElementById(sessionStorage.getItem("breadId"))
-  anchor.className = sessionStorage.getItem("saveClass")
+  anchor.className =sessionStorage.getItem("saveClass")
   bread.style ="display:initial"
-  var fn = window["highContrast"]
-  fn()
+  if(sessionStorage.getItem("mode")!= null){
+    var fn = window["highContrast"]
+    fn()
+  }
 });

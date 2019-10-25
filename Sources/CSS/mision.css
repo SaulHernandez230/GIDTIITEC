@@ -33,12 +33,12 @@
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
-  .M,.VO h3{text-align: center;}
-  .OE h3{padding-left:2%; }
-  .M{width: 90%; margin:2% 5%; }
-  .VO{float: left; margin: 1% 1% 1% 8%;  width: 37%; height: auto;}
-  .OE{ display: inline-block; margin:2% 3%; width: 90%; height: auto;}
-  
+  #Mision .M, #Mision .VO h3{text-align: center;}
+  #Mision .OE h3{padding-left:2%; }
+  #Mision .M{width: 90%; margin:2% 5%; }
+  #Mision .VO{float: left; margin: 1% 1% 1% 8%;  width: 37%; height: auto;}
+  #Mision .OE{ display: inline-block; margin:2% 3%; width: 90%; height: auto;}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

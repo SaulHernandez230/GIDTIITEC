@@ -1,3 +1,36 @@
+
+#Contactanos {
+  margin: 2% 0;
+  width: 100%;
+  height: auto;
+  background: rgb(245, 245, 243);
+}
+#Contactanos h2{
+  text-align: center;
+}
+#Contactanos iframe{
+  margin: 2% 5%;
+  width: 90%;
+}
+#Contactanos form{
+  margin: 2% 10%;
+  width: 90%;
+}
+#Contactanos span{
+  margin: 4% 0% 0 17%;
+  width: 90%;
+  font-size: 22px;
+}
+#Contactanos input, #Contactanos select,
+#Contactanos textarea, #Contactanos form button{
+  display: block;
+  margin: 4% 5%;
+  width: 80%;
+}
+#Contactanos form select{
+  background: white;
+  height: 30px;
+}
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
 }
