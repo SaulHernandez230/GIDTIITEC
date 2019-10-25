@@ -40,9 +40,14 @@ header li{
 @media (min-width: 480px){
   header img{width: 40%}
   #nav .button-container{width: 85%;}
-  #nav button{ width: 15%; font-size: 13px;}
+  #nav button{ padding: .5% 2%; width: auto; font-size: 14px;}
 }
 
+@media (min-width: 576px){
+  header img{width: 45%}
+  #nav .button-container{margin: 0 2%;width: 85%;}
+  #nav button{ font-size: 16px;}
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
   header img{ margin:0%; width: 90%;}
@@ -50,7 +55,7 @@ header li{
   #navbarNav div{width: 100%;}
   #nav div a{ width: 20%; text-align: center; font-size: 18px; font-weight: 600;}
   #nav .button-container{margin:0; width:35%;}
-  #nav button{ margin:0 1%; padding: 0 2%;width: auto; font-size: 17px;}
+  #nav button{ margin:0 1%; padding: .5% 3%; width: auto; font-size: 14px;}
 }
 
 /* Large devices (desktops, 1024px and up) */
@@ -58,7 +63,7 @@ header li{
 {
   header img{ width: 90%;}
   #nav div a{font-size: 23px;}
-  #nav button{ margin:0 2%; font-size: 23px;}
+  #nav button{ font-size: 16px;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

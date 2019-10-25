@@ -1,6 +1,12 @@
 *{
   box-sizing: border-box;
 }
+#Inicio div{
+  display: block;
+  width: 100%;
+  height: auto;
+  background: yellow;
+}
 #Inicio h1, #Inicio #bienvenida, #Inicio a{
   display: none;
 }
@@ -8,28 +14,30 @@
   text-align: center;
 }
 #Inicio img{
-  width: 95%;
-  margin: 2.5%;
+  margin: 5%;
+  width: 90%;
 }
 #Inicio p{
-  margin: 2.5%;
-  width: 95%;
+  margin: 5%;
+  width: 90%;
   text-align: justify;
 }
 #Inicio a {color: white;}
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
-  #Inicio img { margin:2% 7.5%; width: 85%;}
-  #Inicio p{ font-size: 20px;}
+  #Inicio img { margin:2% 10%; width: 80%;}
+  #Inicio p{ margin: 2.5% 5%;font-size: 20px;}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
   #Inicio h1, #Inicio #bienvenida{ display: initial; margin: 0; width:100%;}
-  #Inicio h1{position:relative; left:8px; bottom: 25px; font-size: 19.7px; color:white;}
+  #Inicio h1{position:relative; left:8px; bottom: 25px; font-size: 17px; color:white;}
   #Inicio a{display: initial; position:relative; margin: 0% 1%; left:65%; top:160px;font-size: 17px;}
+  #Inicio img{ float:left; margin: 10% 0% 0 4%; width: 45%;}
+  #Inicio h2{ float: right; margin: 4% 8% 2% 0;}
+  #Inicio p{ float: right; margin: 0 4%; width: 40%; font-size: 19px;}
   #Inicio #bienvenida{max-height: 200px; }
-  #Inicio p{ font-size: 24px;}
 }
 
 /* Large devices (desktops, 1024px and up) */
@@ -38,7 +46,7 @@
   #Inicio h1{font-size: 25px; bottom: 30px;}
   #Inicio a{margin: 0% 1%; left:70%; top:200px;}
   #Inicio #bienvenida{max-height: 250px;}
-  #Inicio p{ font-size: 26px;}
+  #Inicio p{ font-size: 26px; background: blue}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

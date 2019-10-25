@@ -70,7 +70,7 @@
     <div class="proyect">
       <h3>Silla de ruedas motorizada</h3>
       <img src="../../Sources/Img/S4.png">
-      <div class="button-container">
+      <div role="article" class="button-container">
         <p id="proyecto1">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -86,7 +86,7 @@
       </div>
     </div>
     <!--proyect 2-->
-    <div class="proyect">
+    <div role="article" class="proyect">
       <h3>Hybri-voz</h3>
       <img src="../../Sources/Img/H4.png">
       <div class="button-container">
@@ -105,7 +105,7 @@
       </div>
     </div>
     <!--proyect 3-->
-    <div class="proyect">
+    <div role="article" class="proyect">
       <h3>Con Ciencia Pi</h3>
       <img src="../../Sources/Img/C4.png">
       <div class="button-container">
@@ -124,7 +124,7 @@
       </div>
     </div>
     <!--proyect 4-->
-    <div class="proyect">
+    <div role="article" class="proyect">
       <h3>Fidem Pad</h3>
       <img src="../../Sources/Img/F4.png">
       <div class="button-container">
@@ -143,7 +143,7 @@
       </div>
     </div>
     <!--proyect 5-->
-    <div class="proyect">
+    <div role="article" class="proyect">
       <h3>ComuniKT</h3>
       <img src="../../Sources/Img/K4.png">
       <div class="button-container">
@@ -162,7 +162,7 @@
       </div>
     </div>
     <!--proyect 6-->
-    <div class="proyect">
+    <div role="article" class="proyect">
       <h3>Sam Speech</h3>
       <img src="../../Sources/Img/p4.png">
       <div class="button-container">
@@ -181,7 +181,7 @@
       </div>
     </div>
     <!--proyect 7-->
-    <div class="proyect">
+    <div role="article" class="proyect">
       <h3>Guante ultrasónico para invidentes</h3>
       <img src="../../Sources/Img/G4.png">
       <div class="button-container">
@@ -200,7 +200,7 @@
       </div>
     </div>
     <!--proyect 8-->
-    <div class="proyect">
+    <div role="article" class="proyect">
       <h3>Robot controlado por señales del cerebro</h3>
       <img src="../../Sources/Img/M4.png">
       <div class="button-container">
