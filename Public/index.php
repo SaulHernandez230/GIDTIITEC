@@ -11,23 +11,23 @@ if(isset($request[5]))
   $url=$request[5];
 switch ($url){
   case 'Antecedentes.php':
-    require("../Sources/Views/Antecedentes.php");
+    require("../Sources/Views/Records.php");
     break;
   case 'Mision.php':
-    require("../Sources/Views/Mision.php");
+    require("../Sources/Views/Mission.php");
     break;
   case 'Proyectos.php':
-    require("../Sources/Views/Proyectos.php");
+    require("../Sources/Views/Proyects.php");
     break;
   case 'Premios.php':
-    require("../Sources/Views/Premios.php");
+    require("../Sources/Views/Rewards.php");
     break;
   case 'Contactanos.php':
-    require("../Sources/Views/Contactanos.php");
+    require("../Sources/Views/ContactUs.php");
     break;
   default:
       // require_once __DIR__ . '/index.php';
-      require("../Sources/Views/Inicio.php");
+      require("../Sources/Views/Home.php");
       break;
 }
 require("../Sources/Components/footer.html");

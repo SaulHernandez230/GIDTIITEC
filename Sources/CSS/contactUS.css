@@ -1,33 +1,33 @@
 
-#Contactanos {
+#ContactUS {
   margin: 2% 0;
   width: 100%;
   height: auto;
   background: rgb(245, 245, 243);
 }
-#Contactanos h2{
+#ContactUS h2{
   text-align: center;
 }
-#Contactanos iframe{
+#ContactUS iframe{
   margin: 2% 5%;
   width: 90%;
 }
-#Contactanos form{
+#ContactUS form{
   margin: 2% 10%;
   width: 90%;
 }
-#Contactanos span{
+#ContactUS span{
   margin: 4% 0% 0 17%;
   width: 90%;
   font-size: 22px;
 }
-#Contactanos input, #Contactanos select,
-#Contactanos textarea, #Contactanos form button{
+#ContactUS input, #ContactUS select,
+#ContactUS textarea, #ContactUS form button{
   display: block;
   margin: 4% 5%;
   width: 80%;
 }
-#Contactanos form select{
+#ContactUS form select{
   background: white;
   height: 30px;
 }

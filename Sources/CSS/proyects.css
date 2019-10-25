@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+}
+#Proyects{
+  display: inline-block;
+}
+#Proyects h2{
+  margin: 1% 2% 1%;
+}
+#Proyects #carousel{
+  margin: 1% 0;
+  width: 100%;
+  background: rgb(245, 245, 243);
+}
+#Proyects #carousel iframe{
+  width: 100%;
+}
+#Proyects .proyect{
+  display: inline-block;
+  margin: 3% 0;
+  width: 100%;
+  height: auto;
+  background: rgb(245, 245, 243);
+}
+#Proyects .proyect h3,#Proyects img,#Proyects p{
+  margin: 2% 5%;
+  width: 90%;
+}
+#Proyects .proyect img{
+  border-radius: 6px;
+  /* box-shadow: 0 0 25px rgba(76,176,76,1);} */
+}
+#Proyects .proyect h3{
+  text-align: center;
+  font-size: 23px;
+}
+#Proyects .proyect p{
+  text-align: justify;
+}
+#Proyects .button-container button , .modal-footer button{
+  float: right;
+  margin: 4% 7% 3% 0%;
+  width: 40%;
+  max-width: 155px;
+  font-size: 20px;
+  font-weight: 500;
+  background: rgb(203, 105, 5);
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+ #Proyects .modal-body, .modal-header, .modal-footer{
+   background: rgb(239,238, 236);
+}
+
+#Proyects .modal-header h3{
+  margin: 1% 0%;
+  margin-left: 11%;
+}
+#Proyects .modal-footer button{
+  float: none;
+  width: 20%;
+  height: 35px;
+
+}
+/*devices (landscape phones, 480px and up) */
+@media (min-width: 480px){
+  #Proyects .proyect h3 {margin-top:3%; font-size: 29px; font-weight: 500}
+  #Proyects .proyect img, #Proyects p{margin: 2% 13%; width: 75%;}
+  #Proyects .button-container button{ margin: 2% 13% 3% 0%; width: 32%; max-width: 170px; font-size: 22px;}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){
+  #Proyects h2{margin: 1% 0%; text-align: center;}
+  #carousel iframe{ height: 400px;}
+  #Proyects .proyect img {float: left; margin: 2% 3% 0%;  width: 35%; height: 290px;}
+  #Proyects .button-container{float: left; margin: 2% 2% 3% 0%; width: 55%; height: auto;}
+  #Proyects .proyect p {float: left; margin: 0; width: 100%; min-height: 240px; font-size:18px;}
+  #Proyects .button-container button{margin: 2% 2%;}
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px)
+{
+  #carousel iframe{ height: 450px;}
+  #Proyects .proyect{margin: 2% 0;}
+  #Proyects .proyect p {font-size:20px;}
+  #Proyects .button-container button{ min-height:40px; font-size: 23px;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+  #carousel iframe{ height: 500px;}
+  #Proyects .proyect p {font-size:24px;}
+}

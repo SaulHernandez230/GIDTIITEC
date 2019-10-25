@@ -1,15 +1,15 @@
 <body>
-  <div id="Antecedentes">
+  <div id="Records">
     <h2>Antecedentes</h2>
     <img src="../../Sources/Img/antecedentes.png">
-    <p id="parrafo1">
+    <p id="paragraph1">
       Sin lugar a dudas el mérito se mide por los logros. Así, el GIDTIITEC ha producido valiosos proyectos que se han
        aplicado a diversos sectores y comunidades que reflejan el espíritu solidario de quienes componen este gran grupo.
        Estos grandes proyectos se ilustran a partir de proyectos aplicados, prototipos, artículos, capítulos de libros,
        congresos, charlas, exposiciones, foros, así como las investigaciones desarrolladas que han permitido contar con
        la producción referida.
     </p>
-    <p id="parrafo2">
+    <p id="paragraph2">
       Profesores visionarios de los Departamentos Académicos de Sistemas Computacionales y Humanidades, crearon este
       Grupo para impulsar la investigación inclusiva y educativa, la propuesta se inspiró por este deseo. En cuanto a la
       trascendencia regional, el Grupo se convierte en una valiosa fuente de asesoramiento en el campo de desarrollo de
@@ -18,7 +18,7 @@
       buscan impulsar el bienestar social y económico a través de la inclusión y el acortamiento de la brecha educativa
       aprovechando las tecnologías propuestas.
     </p>
-    <p id="parrafo3">
+    <p id="paragraph3">
       La cuantificación y la proyección del trabajo realizado son un buen ejemplo de las
       posibilidades que se gestan en el Grupo en el marco de la Universidad la Universidad Autónoma de Baja California
       Sur.Es por esta razón que los investigadores actuales del Grupo busca realizar investigaciones de calidad cuyos

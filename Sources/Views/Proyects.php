@@ -1,5 +1,5 @@
 <body>
-  <div id="Proyectos">
+  <div id="Proyects">
     <!--CAROUSEL-->
     <div id="carousel" >
       <h2>Proyectos</h2>
@@ -71,7 +71,7 @@
       <h3>Silla de ruedas motorizada</h3>
       <img src="../../Sources/Img/S4.png">
       <div role="article" class="button-container">
-        <p id="proyecto1">
+        <p id="proyect1">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -90,7 +90,7 @@
       <h3>Hybri-voz</h3>
       <img src="../../Sources/Img/H4.png">
       <div class="button-container">
-        <p id="proyecto2">
+        <p id="proyect2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -109,7 +109,7 @@
       <h3>Con Ciencia Pi</h3>
       <img src="../../Sources/Img/C4.png">
       <div class="button-container">
-        <p id="proyecto3">
+        <p id="proyect3">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -128,7 +128,7 @@
       <h3>Fidem Pad</h3>
       <img src="../../Sources/Img/F4.png">
       <div class="button-container">
-        <p id="proyecto4">
+        <p id="proyect4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -147,7 +147,7 @@
       <h3>ComuniKT</h3>
       <img src="../../Sources/Img/K4.png">
       <div class="button-container">
-        <p id="proyecto5">
+        <p id="proyect5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -166,7 +166,7 @@
       <h3>Sam Speech</h3>
       <img src="../../Sources/Img/p4.png">
       <div class="button-container">
-        <p id="proyecto6">
+        <p id="proyect6">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -185,7 +185,7 @@
       <h3>Guante ultrasónico para invidentes</h3>
       <img src="../../Sources/Img/G4.png">
       <div class="button-container">
-        <p id="proyecto7">
+        <p id="proyect7">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -204,7 +204,7 @@
       <h3>Robot controlado por señales del cerebro</h3>
       <img src="../../Sources/Img/M4.png">
       <div class="button-container">
-        <p id="proyecto8">
+        <p id="proyect8">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

@@ -18,56 +18,56 @@
 
     //Codigo para la reproduccion del audio de la pagina
     function antecedentes(){
-      var parrafo1 = document.getElementById("parrafo1").textContent;
-      var parrafo2 = document.getElementById("parrafo2").textContent;
-      var parrafo3 = document.getElementById("parrafo3").textContent;
-      speech("",parrafo1)
-      speech("",parrafo2)
-      speech("",parrafo3)
+      var paragraph1 = document.getElementById("paragraph1").textContent;
+      var paragraph2 = document.getElementById("paragraph2").textContent;
+      var paragraph3 = document.getElementById("paragraph3").textContent;
+      speech("",paragraph1)
+      speech("",paragraph2)
+      speech("",paragraph3)
     }
     function mision(){
-      var parrafo1 = document.getElementById("parrafo1").textContent;
-      var parrafo2 = document.getElementById("parrafo2").textContent;
-      var parrafo3 = document.getElementById("parrafo3").textContent;
+      var paragraph1 = document.getElementById("paragraph1").textContent;
+      var paragraph2 = document.getElementById("paragraph2").textContent;
+      var paragraph3 = document.getElementById("paragraph3").textContent;
 
-      var objetivo1 = document.getElementById("objetivo1").textContent;
-      var objetivo2 = document.getElementById("objetivo2").textContent;
-      var objetivo3 = document.getElementById("objetivo3").textContent;
-      var objetivo4 = document.getElementById("objetivo4").textContent;
-      var objetivo5 = document.getElementById("objetivo5").textContent;
-      var objetivo6 = document.getElementById("objetivo6").textContent;
-      var objetivo7 = document.getElementById("objetivo7").textContent;
+      var objetive1 = document.getElementById("objetive1").textContent;
+      var objetive2 = document.getElementById("objetive2").textContent;
+      var objetive3 = document.getElementById("objetive3").textContent;
+      var objetive4 = document.getElementById("objetive4").textContent;
+      var objetive5 = document.getElementById("objetive5").textContent;
+      var objetive6 = document.getElementById("objetive6").textContent;
+      var objetive7 = document.getElementById("objetive7").textContent;
 
-      speech("Misión",parrafo1)
-      speech("Visión",parrafo2)
-      speech("Objetivos",parrafo3)
+      speech("Misión",paragraph1)
+      speech("Visión",paragraph2)
+      speech("objetives",paragraph3)
 
-      speech("Objetivos Especificos",objetivo1)
-      speech("",objetivo2)
-      speech("",objetivo3)
-      speech("",objetivo4)
-      speech("",objetivo5)
-      speech("",objetivo6)
-      speech("",objetivo7)
+      speech("objetives Especificos",objetive1)
+      speech("",objetive2)
+      speech("",objetive3)
+      speech("",objetive4)
+      speech("",objetive5)
+      speech("",objetive6)
+      speech("",objetive7)
     }
     function proyectos(){
-      var proyecto1 = document.getElementById("proyecto1").textContent;
-      var proyecto2 = document.getElementById("proyecto2").textContent;
-      var proyecto3 = document.getElementById("proyecto3").textContent;
-      var proyecto4 = document.getElementById("proyecto4").textContent;
-      var proyecto5 = document.getElementById("proyecto5").textContent;
-      var proyecto6 = document.getElementById("proyecto6").textContent;
-      var proyecto7 = document.getElementById("proyecto7").textContent;
-      var proyecto8 = document.getElementById("proyecto8").textContent;
+      var proyect1 = document.getElementById("proyect1").textContent;
+      var proyect2 = document.getElementById("proyect2").textContent;
+      var proyect3 = document.getElementById("proyect3").textContent;
+      var proyect4 = document.getElementById("proyect4").textContent;
+      var proyect5 = document.getElementById("proyect5").textContent;
+      var proyect6 = document.getElementById("proyect6").textContent;
+      var proyect7 = document.getElementById("proyect7").textContent;
+      var proyect8 = document.getElementById("proyect8").textContent;
 
-      speech("Silla de ruedas motorizada",proyecto1)
-      speech("Hybri-voz",proyecto2)
-      speech("Con Ciencia Pi",proyecto3)
-      speech("Fidem Pad",proyecto4)
-      speech("ComuniKT",proyecto5)
-      speech("Sam Speech",proyecto6)
-      speech("Guante ultrasónico",proyecto7)
-      speech("Robot controlado por señales del cerebro",proyecto8)
+      speech("Silla de ruedas motorizada",proyect1)
+      speech("Hybri-voz",proyect2)
+      speech("Con Ciencia Pi",proyect3)
+      speech("Fidem Pad",proyect4)
+      speech("ComuniKT",proyect5)
+      speech("Sam Speech",proyect6)
+      speech("Guante ultrasónico",proyect7)
+      speech("Robot controlado por señales del cerebro",proyect8)
     }
     function dft(){
       var texto = "Navega por nuestra pagina para poder utilizar el lector de texto"
