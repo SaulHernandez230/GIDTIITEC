@@ -34,9 +34,9 @@
   #Home h1, #Home #imgWelcome{ display: initial; margin: 0; width:100%;}
   #Home h1{position:relative; left:8px; bottom: 25px; font-size: 17px; color:white;}
   #Home a{display: initial; position:relative; margin: 0% 1%; left:65%; top:160px;font-size: 17px;}
-  #Home img{ float:left; margin: 10% 0% 0 4%; width: 45%;}
-  #Home h2{ float: right; margin: 4% 8% 2% 0;}
-  #Home p{ float: right; margin: 0 4%; width: 40%; font-size: 19px;}
+  #Home img{ float:left; margin: 5% 0% 1% 4%; width: 45%;}
+  #Home h2{ float: right; margin: 3% 9% 2% 0;}
+  #Home p{ float: right; margin: 0 4%; width: 42%; font-size: 18px;}
   #Home #imgWelcome{max-height: 200px; }
 }
 
