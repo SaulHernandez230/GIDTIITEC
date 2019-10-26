@@ -8,7 +8,7 @@
     </div>
 
     <div  id="" role="article">
-      <h2 role="banner">¿Quienes Somos?</h2>
+      <h2 role="banner">¿Quiénes Somos?</h2>
       <span class="sr-only" role="none">¿Quienes Somos?</span>
       <img src="/GIDTIITEC/Sources/Img/grupo.png" role="img">
       <p>

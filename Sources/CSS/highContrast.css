@@ -19,3 +19,7 @@ footer,.proyect button{
 #nav {
   background: black;
 }
+#nav button{
+  color:white;
+  background: black;
+}

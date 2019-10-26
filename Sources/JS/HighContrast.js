@@ -9,13 +9,13 @@ function changeContrast(){
   highContrast()
 }
 function highContrast(){
-  var ajust = document.getElementById("link9")
+  var adjust = document.getElementById("link9")
   var mode = sessionStorage.getItem("mode")
   if( mode === "dark"){
     $('#nav').removeClass("bg-light");
-    contraste.href="/GIDTIITEC/Sources/CSS/highContrast.css"
+    adjust.href="/GIDTIITEC/Sources/CSS/highContrast.css"
   }else{
     $('#nav').addClass("bg-light");
-    ajust.href=""
+    adjust.href=""
   }
 }

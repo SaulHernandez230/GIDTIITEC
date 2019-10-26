@@ -22,29 +22,30 @@
     <title></title>
 
   </head>
-  <header>
+  <header id="Header">
     <!--NAVBAR-->
     <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light" aria-label="Main Navegation" role="menubar" data-mode="light">
 
+      <!--LOGO-->
+      <img class="navbar-brand" src="/GIDTIITEC/Sources/Img/gidtiitec.png" role="banner" aria-label="GIDTIITEC Logo">
+
+      <!-- NAVBAR BUTTON -->
+      <span class="navbar-toggler" data-toggle="collapse"  data-target="#navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"  role="img" aria-label="icon navbar"></span>
+      </span>
       <div class="button-container" >
-        <!--LOGO-->
-        <img class="navbar-brand" src="/GIDTIITEC/Sources/Img/gidtiitec.png" role="banner" aria-label="GIDTIITEC Logo">
 
         <!-- START SPEECH BUTTON -->
-        <button class="btn btn-sm btn-outline-secondary"  type="button" onclick="startSpeech()">Leer</button>
+        <button class="fas fa-play" type="button" onclick="startSpeech()"></button>
 
         <!-- STOP SPEECH BUTTON -->
-        <button class="btn btn-sm btn-outline-secondary" type="button" onclick="stopSpeech()">Pausa</button>
+        <button class="fas fa-stop" type="button" onclick="stopSpeech()"></button>
 
         <!-- HIGH CONTRAST BUTTON -->
-        <button class="btn btn-sm btn-outline-secondary" type="button" id="highContrast" onclick="changeContrast()">Ajustar</button>
+        <button class="fas fa-adjust" type="button" id="highContrast" onclick="changeContrast()"></button>
       </div>
-      <!-- NAVBAR BUTTON -->
-      <span class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"  role="img" aria-label="icon navBar"></span>
-      </span>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbar">
         <div class=" navbar-nav" role="menu">
           <a id="a1" class=" nav-link" role="menuitem">Inicio</a>
           <a id="a2" class=" nav-link" role="menuitem">Antecedentes</a>
@@ -56,7 +57,7 @@
       </div>
     </nav>
     <!--BREADCRUMBS-->
-    <ol class="row" class="breadcrumb" role="breadcrumb">
+    <ol  class="breadcrumb" role="breadcrumb">
       <li id="ba1" class="breadcrumb-item" aria-label="breadcrum item">Inicio</li>
       <li id="ba2" class="breadcrumb-item" aria-label="breadcrum item" style="display: none" >Antecedentes</li>
       <li id="ba3" class="breadcrumb-item" aria-label="breadcrum item" style="display: none" >Mision</li>
