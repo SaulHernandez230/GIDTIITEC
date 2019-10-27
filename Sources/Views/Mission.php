@@ -1,7 +1,7 @@
 <body>
   <div id="Mision">
     <!-- <h2>Mision, Vision y Objetivos</h2> -->
-    <div class="M">
+    <div class="mission">
       <h3>Misión</h3>
       <p aria-label="Misión de GIDTIITEC" id="paragraph1">
         Somos un equipo multidisciplinario dedicado a contribuir y fomentar la investigación, análisis, e innovación,
@@ -10,7 +10,7 @@
         de la Información y Comunicación.
       </p>
     </div>
-    <div class="VO">
+    <div class="vision">
       <h3>Visión</h3>
       <p aria-label=" Visión de GIDTIITEC" id="paragraph2">
         Seremos un grupo de investigación referente y de vanguardia en investigación, innovación y desarrollo de
@@ -18,14 +18,14 @@
         vulnerables.
       </p>
     </div>
-    <div class="VO">
+    <div class="objetives">
       <h3>Objetivos</h3>
       <p aria-label=" Objetivos de GIDTIITEC " id="paragraph3">
         Generar y aplicar nuevos conocimientos para el desarrollo tecnológico y la innovación en los campos de
         inclusión y educación, mediante el uso de nuevas tecnologías y herramientas.
       </p>
     </div>
-    <div class="OE">
+    <div class="objetives-sp">
       <h3>Objetivos Específicos</h3>
       <span class="sr-only" >Los objetivos específicos de GIDTIITEC son:</span>
 

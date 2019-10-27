@@ -29,20 +29,19 @@
       <!--LOGO-->
       <img class="navbar-brand" src="/GIDTIITEC/Sources/Img/gidtiitec.png" role="banner" aria-label="GIDTIITEC Logo">
 
-      <!-- NAVBAR BUTTON -->
-      <span class="navbar-toggler" data-toggle="collapse"  data-target="#navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"  role="img" aria-label="icon navbar"></span>
-      </span>
       <div class="button-container" >
-
-        <!-- START SPEECH BUTTON -->
-        <button class="fas fa-play" type="button" onclick="startSpeech()"></button>
-
-        <!-- STOP SPEECH BUTTON -->
-        <button class="fas fa-stop" type="button" onclick="stopSpeech()"></button>
-
-        <!-- HIGH CONTRAST BUTTON -->
-        <button class="fas fa-adjust" type="button" id="highContrast" onclick="changeContrast()"></button>
+        <!-- NAVBAR BUTTON -->
+        <span id="nav-button" class="navbar-toggler" data-toggle="collapse"  data-target="#navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"  role="img" aria-label="icon navbar"></span>
+        </span>
+        <div>
+          <!-- START SPEECH BUTTON -->
+          <button class="fas fa-play" type="button" onclick="startSpeech()"></button>
+          <!-- STOP SPEECH BUTTON -->
+          <button class="fas fa-stop" type="button" onclick="stopSpeech()"></button>
+          <!-- HIGH CONTRAST BUTTON -->
+          <button class="fas fa-adjust" type="button" id="highContrast" onclick="changeContrast()"></button>
+        </div>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar">

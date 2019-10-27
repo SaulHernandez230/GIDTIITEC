@@ -1,81 +1,93 @@
 *{
   box-sizing: border-box;
 }
+img:hover{
+  cursor: zoom-in;
+}
 body{
   display: inline-block;
   width: 100%;
   height: auto;
   background: rgb(239,238, 236);
 }
-header img{
-  margin:0;
-  margin-bottom: 1%;
-  width: 60%;
+#Header img{
+  margin: 0%;
+  padding: 0%;
+  width: 55%;
 }
- #nav a{
-  margin: 1% 0% 0%;
-  padding: 1%;
-  font-size: 18px;
-  border: solid;
-  border-color: rgb(239,238, 236);
-  text-align: center;
-  border-radius: 6px;
-  background: white;
-}
-#navbar div{
-  margin: 0;
-  padding: 0;
-}
-header li{
-  display: inline;
-  margin: 1% 0;
+#nav{
+  padding: 2%;
 }
 #nav .button-container{
-  text-align: right;
-  margin-bottom: 1%;
-  width:100%;
+  float: left;
+  width:40%;
+  height: auto;
+  text-align: center;
+}
+
+#nav-button{
+  display: block;
+  margin: 2% 0% 6%;
+  margin-left: 25%;
+  width: 50%;
 }
 #nav button{
-  margin: 0 1%;
-  padding: 1.2%;
+  padding: 1.5% 2%;
   font-size: 16px;
-  color:Gray;
+  color:gray;
+  background: none;
   border-radius: 6px;
-  background:white;
+  border-style: groove;
+  border-color: rgb(239,238, 236);
+}
+#nav a{
+ margin: 1% 0% 0%;
+ padding: 1%;
+ font-size: 18px;
+ border: solid;
+ border-color: rgb(239,238, 236);
+ text-align: center;
+ border-radius: 6px;
+ background: white;
+}
+#nav a:hover{
+  cursor:pointer;
 }
 #Header ol{
   margin: 0;
   padding: 0;
-  border: solid;
-  border-color: white;
   font-size: 20px;
-}
-#Header li{
-  margin: 0;
-  padding: 0;
 }
 
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
-  header img{width: 20%}
-  #nav .button-container{width: 45%;}
-  #nav button{ width: 10%; font-size: 14px;}
-  #nav a{ margin: 1% 10% 0%; width: 70%;}
+  #Header img{margin: 0 1%; width: 45%}
+  #nav .button-container{ width: 50%;}
+  #nav-button{margin-left: 50%; width: 30%; }
+  #nav .button-container div{ margin-left: 45%; width: 40%;}
+  #nav button{ font-size: 16px;}
+  #navbar a{ margin: 1% 15% 0%; width: 70%;}
 }
 
 @media (min-width: 576px){
-  header img{width: 15%}
-  #nav .button-container{margin: 0 2%;width: 85%;}
-  #nav button{ font-size: 16px;}
+  #Header img{width: 40%}
+  #nav .button-container{width: 55%;}
+  #nav-button{float: right; margin:2% 2% 0;}
+  #nav .button-container div{float: left; margin: 3% 0% 0% 0%; width: 60%;}
+  #nav button{ width: 25%; margin:2%; font-size: 18px;}
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
-  header img{ margin:0%; width: 20%;}
-  #navbar{ width: 100%;}
-  #navbar div{width: 100%;}
-  #nav div a{ margin: 0; padding: 0;width: 22%; text-align: center; font-size: 18px; font-weight: 600;}
-  #nav .button-container{margin:0; width:35%;}
-  #nav button{ width: 12%; font-size: 14px;}
+  #Header img{ margin:0%; width: 20%;}
+  #nav .button-container{ margin:0; width:15%;}
+  #nav-button{display: none;}
+  #nav .button-container div { margin:0; width:100%;}
+  #nav button{ width: 25%; margin:1%; font-size: 16px;}
+  #navbar div{width: 100%; margin: 0; padding: 0;}
+  #navbar a{
+    margin: 0%; padding: 0 .5%;width: 25%; font-size: 17px; font-weight: 600;
+    border:none; background: none;
+  }
 }
 
 /* Large devices (desktops, 1024px and up) */

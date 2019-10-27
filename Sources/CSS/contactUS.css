@@ -13,18 +13,19 @@
   width: 90%;
 }
 #ContactUs form{
-  margin: 2% 10%;
+  margin: 2% 4%;
   width: 90%;
 }
-#ContactUsspan{
-  margin: 4% 0% 0 17%;
-  width: 90%;
+#ContactUs span{
+  width: 100%;
+  text-align: center;
+  background: red;
   font-size: 22px;
 }
 #ContactUs input, #ContactUs select,
 #ContactUs textarea, #ContactUs form button{
   display: block;
-  margin: 4% 5%;
+  margin: 4% 11%;
   width: 80%;
 }
 #ContactUs form select{
