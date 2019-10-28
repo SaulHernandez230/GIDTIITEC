@@ -1,5 +1,5 @@
 <body>
-  <div id="Premios" class="container">
+  <div id="Rewards" class="container">
     <div class="titulo">
       <h2 class="my-5">Premios y reconocimientos</h2>
     </div>

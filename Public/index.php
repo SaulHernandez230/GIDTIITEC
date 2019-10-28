@@ -30,5 +30,6 @@ switch ($url){
       require("../Sources/Views/Home.php");
       break;
 }
+require('../Sources/Views/Zoom.php');
 require("../Sources/Components/footer.html");
 ?>

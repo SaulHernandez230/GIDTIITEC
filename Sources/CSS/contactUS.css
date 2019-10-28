@@ -17,16 +17,17 @@
   width: 90%;
 }
 #ContactUs span{
+  margin: 3% 0% 0%;
   width: 100%;
   text-align: center;
-  background: red;
-  font-size: 22px;
+  font-size: 24px;
 }
 #ContactUs input, #ContactUs select,
 #ContactUs textarea, #ContactUs form button{
   display: block;
-  margin: 4% 11%;
-  width: 80%;
+  margin: 3% 0% 0% 15%;
+  padding: 0;
+  width: 70%;
 }
 #ContactUs form select{
   background: white;
@@ -34,6 +35,9 @@
 }
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
+  #ContactUs iframe{ margin: 2% 10%; width: 80%;}
+  #ContactUs form{ margin: 2% 15%; width: 70%;}
+  #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs form button{ margin: 2% 11%;}
 }
 
 /* Medium devices (tablets, 768px and up) */

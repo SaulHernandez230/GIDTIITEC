@@ -1,8 +1,8 @@
 *{
   box-sizing: border-box;
 }
-img:hover{
-  cursor: default;
+#Header{
+  z-index: 1;
 }
 body{
   display: inline-block;
@@ -79,27 +79,28 @@ body{
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
   #Header img{ margin:0%; width: 20%;}
-  #nav .button-container{ margin:0; width:15%;}
+  #nav{padding: .5% 1% .5%}
+  #nav .button-container{ margin:0; width:14%;}
   #nav-button{display: none;}
   #nav .button-container div { margin:0; width:100%;}
-  #nav button{ width: 25%; margin:1%; font-size: 16px;}
+  #nav button{ width: 23%; margin:1%; font-size: 16px;}
   #navbar div{width: 100%; margin: 0; padding: 0;}
   #navbar a{
-    margin: 0%; padding: 0 .5%;width: 25%; font-size: 17px; font-weight: 600;
-    border:none; background: none;
+    margin: 0%; padding: 0 .5%;width: 25%; font-size: 16px; font-weight: 600;
+    border:none; background:none;
   }
 }
 
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
-  header img{ width: 10%;}
-  #nav div a{font-size: 23px;}
+  #Header img{ width: 17%;}
+  #nav a{width: 19%; font-size: 19px;}
   #nav button{ font-size: 16px;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px)
 {
-  #nav div a{font-size: 26px;}
+  #nav a{font-size: 21px;}
 }

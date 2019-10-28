@@ -4,12 +4,12 @@
       <a id="a3" class="btn btn-success" role="button">Proyectos</a>
       <a id="a6" class="btn btn-secondary" role="button">Contactanos</a>
       <img id="imgWelcome" src="/GIDTIITEC/Sources/Img/bienvenida.png" role="img" aria-labely="Grupo de invesitgacion y desarrollo de Tecnologias Inclusivas">
-      <h1>Grupo de Investigación en Desarrollo de Tecnologías Inclusivas e Innovación Educativa</h1>
+      <!-- <h1>Grupo de Investigación en Desarrollo de Tecnologías Inclusivas e Innovación Educativa</h1> -->
     </div>
 
     <div  id="" role="article">
       <h2 role="banner">¿Quiénes Somos?</h2>
-      <span class="sr-only" role="none">¿Quienes Somos?</span>
+      <!-- <span class="sr-only" role="none">¿Quienes Somos?</span> -->
       <img src="/GIDTIITEC/Sources/Img/grupo.png" role="img">
       <p>
         El Grupo de Investigación de Desarrollo de Tecnologías Inclusivas e Innovación Educativa es

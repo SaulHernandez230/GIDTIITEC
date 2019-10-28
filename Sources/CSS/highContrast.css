@@ -1,25 +1,22 @@
-#Records,.proyect,#carousel,#Mission,body{
-  background: black;
+#nav,#Records,#Proyects,#Proyects #carousel,#Mission,body{
+  background: #282828;
 }
-p{
-  color:white;
+#Proyects .proyect, #Header ol,footer{
+  background: rgba(28,28,28,.9)
 }
-a,li,h3,h6,h2{
+
+#nav a,p,a,li,h3,h6,h2{
   color: white;
 }
-footer{
-  background: darkGray;
+
+ #Proyects .proyect button{
+   background: none;
+   border-style: groove;
+   border-color: white;
+   border-radius: 6px;
 }
-footer,.proyect button{
-  background: gray;
-}
-#navbarNav a {
-  color:white;
-}
-#nav {
-  background: black;
-}
+
 #nav button{
   color:white;
-  background: black;
+  background: #282828;
 }
