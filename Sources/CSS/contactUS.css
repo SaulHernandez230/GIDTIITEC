@@ -3,7 +3,7 @@
   margin: 2% 0;
   width: 100%;
   height: auto;
-  background: rgb(245, 245, 243);
+  
 }
 #ContactUs h2{
   text-align: center;
@@ -14,10 +14,13 @@
 }
 #ContactUs form{
   margin: 2% 4%;
+  padding: 0;
   width: 90%;
+  background: rgb(245, 245, 243);
 }
 #ContactUs span{
-  margin: 3% 0% 0%;
+  display: block;
+  margin: 3% 0 0 0%;
   width: 100%;
   text-align: center;
   font-size: 24px;
@@ -28,6 +31,8 @@
   margin: 3% 0% 0% 15%;
   padding: 0;
   width: 70%;
+  border: ridge;
+  border-color:rgb(239,238, 236);
 }
 #ContactUs form select{
   background: white;
@@ -37,19 +42,25 @@
 @media (min-width: 480px){
   #ContactUs iframe{ margin: 2% 10%; width: 80%;}
   #ContactUs form{ margin: 2% 15%; width: 70%;}
-  #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs form button{ margin: 2% 11%;}
+  #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs form button{ margin: 2% 15%;}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
+  #ContactUs iframe{float: left; margin:5% 1% 0% 3%; width: 45%; height: 300px;}
+  #ContactUs form{ float: right; margin: 2% 3% 0% 1%;; width: 45%;}
+  #ContactUs span {  font-size: 24px; }
 }
 
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
+  #ContactUs iframe{margin:3% 1% 0% 3%; width: 45%; height: 350px;}
+  #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs form button{ width: 60% ;margin: 2% 20%;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px)
 {
+
 }

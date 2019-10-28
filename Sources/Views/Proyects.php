@@ -16,7 +16,7 @@
             <!--Video-->
             <iframe class="d-block " height="315" src="https://www.youtube.com/embed/eqTUP8-kvek"  frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Tittle Video-->
+            <!--title Video-->
             <div class="carousel-caption d-none d-sm-block">
               <h4>Silla de ruedas motorizada</h4>
             </div>
@@ -27,7 +27,7 @@
             <img src="../../Sources/Img/gidtiitec.png">
             <iframe class="d-block " height="315"  src="https://www.youtube.com/embed/eu9tLt1OPGA" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Tittle Video-->
+            <!--title Video-->
             <div class="carousel-caption d-none d-sm-block">
               <h4>"Hybri-Voz"</h4>
             </div>
@@ -38,7 +38,7 @@
             <img src="../../Sources/Img/gidtiitec.png">
             <iframe class="d-block " height="315" src="https://www.youtube.com/embed/o2q7CoxniYA" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Tittle Video-->
+            <!--title Video-->
             <div class="carousel-caption d-none d-sm-block">
               <h4>Primero Noticias</h4>
             </div>
@@ -49,7 +49,7 @@
             <img src="../../Sources/Img/gidtiitec.png">
             <iframe class="d-block " height="315"  src="https://www.youtube.com/embed/hs9QHfi419c" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Tittle Video-->
+            <!--title Video-->
             <div class="carousel-caption d-none d-sm-block">
               <h4>Con_Ciencia Pi</h4>
             </div>
@@ -77,7 +77,7 @@
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button data-tittle="Silla de Ruedas Motorizada"
+        <button data-title="Silla de Ruedas Motorizada"
         data-src1="../../Sources/Img/S1.png" data-src2="../../Sources/Img/S2.png" data-src3="../../Sources/Img/S3.png"
         data-src4="../../Sources/Img/S1.png" type="button" role="button" data-toggle="modal" data-target="#gallery" >
           Galeria
@@ -96,7 +96,7 @@
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button data-tittle="Hybri-voz"
+        <button data-title="Hybri-voz"
         data-src1="../../Sources/Img/H1.png" data-src2="../../Sources/Img/H2.png" data-src3="../../Sources/Img/H3.png"
         data-src4="../../Sources/Img/H4.png" type="button" role="button" data-toggle="modal" data-target="#gallery" >
           Galeria
@@ -115,7 +115,7 @@
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button data-tittle="Con Ciencia Pi"
+        <button data-title="Con Ciencia Pi"
         data-src1="../../Sources/Img/C1.png" data-src2="../../Sources/Img/C2.png" data-src3="../../Sources/Img/C3.png"
         data-src4="../../Sources/Img/C4.png" type="button" role="button" data-toggle="modal" data-target="#gallery" >
           Galeria
@@ -134,7 +134,7 @@
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button data-tittle="Fidem Pad"
+        <button data-title="Fidem Pad"
         data-src1="../../Sources/Img/F1.png" data-src2="../../Sources/Img/F2.png" data-src3="../../Sources/Img/F3.png"
         data-src4="../../Sources/Img/F4.png" type="button" role="button" data-toggle="modal" data-target="#gallery" >
           Galeria
@@ -153,7 +153,7 @@
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button data-tittle="ComuniKT"
+        <button data-title="ComuniKT"
         data-src1="../../Sources/Img/K1.png" data-src2="../../Sources/Img/K2.png" data-src3="../../Sources/Img/K3.png"
         data-src4="../../Sources/Img/K4.png" type="button" role="button" data-toggle="modal" data-target="#gallery" >
           Galeria
@@ -172,7 +172,7 @@
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button data-tittle="Sam Speech"
+        <button data-title="Sam Speech"
         data-src1="../../Sources/Img/P1.png" data-src2="../../Sources/Img/P2.png" data-src3="../../Sources/Img/P3.png"
         data-src4="../../Sources/Img/P4.png" type="button" role="button" data-toggle="modal" data-target="#gallery" >
           Galeria
@@ -191,7 +191,7 @@
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button data-tittle="Guante ultrasónico para invidentes"
+        <button data-title="Guante ultrasónico para invidentes"
         data-src1="../../Sources/Img/G1.png" data-src2="../../Sources/Img/G2.png" data-src3="../../Sources/Img/G3.png"
         data-src4="../../Sources/Img/G4.png" type="button" role="button" data-toggle="modal" data-target="#gallery" >
           Galeria
@@ -210,7 +210,7 @@
           consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button data-tittle="Robot controlado por señales del cerebro"
+        <button data-title="Robot controlado por señales del cerebro"
         data-src1="../../Sources/Img/M1.png" data-src2="../../Sources/Img/M2.png" data-src3="../../Sources/Img/M3.png"
         data-src4="../../Sources/Img/M4.png" type="button" role="button" data-toggle="modal" data-target="#gallery" >Galeria</button>
         <span class="sr-only">Galeria</span>
@@ -221,7 +221,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h3 class="modal-title" id="galleryTittle">Titulo</h3>
+            <h3 class="modal-title" id="galleryTitle">Titulo</h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>

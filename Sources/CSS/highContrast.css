@@ -1,22 +1,18 @@
-#nav,#Records,#Proyects,#Proyects #carousel,#Mission,body{
+#nav,#Records,#Proyects,#ContactUs,#Proyects #carousel,#Mission,body, #Proyects #gallery div{
   background: #282828;
 }
-#Proyects .proyect, #Header ol,footer{
+#zoom-modal div,#Rewards .card,#Proyects .proyect, #Header ol,footer, #ContactUs form{
   background: rgba(28,28,28,.9)
 }
 
-#nav a,p,a,li,h3,h6,h2{
+#ContactUs span,#nav a,p,a,li,h3,h6,h2,h1,span{
   color: white;
 }
 
- #Proyects .proyect button{
-   background: none;
-   border-style: groove;
-   border-color: white;
-   border-radius: 6px;
-}
-
-#nav button{
+#nav button, #ContactUs button, #Proyects .proyect button, #Proyects button{
   color:white;
   background: #282828;
+  border-style: ridge;
+  border-color: white;
+  border-radius: 6px;
 }

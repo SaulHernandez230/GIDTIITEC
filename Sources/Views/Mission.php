@@ -1,5 +1,5 @@
 <body>
-  <div id="Mision">
+  <div id="Mission">
     <!-- <h2>Mision, Vision y Objetivos</h2> -->
     <div class="mission">
       <h3>Misión</h3>

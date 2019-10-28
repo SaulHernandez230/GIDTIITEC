@@ -1,23 +1,23 @@
 *{
   box-sizing: border-box;
 }
-#Mision{
+#Mission{
   display: inline-block;
 }
-#Mision h3{
+#Mission h3{
   margin-left: 5%;
 }
-#Mision p{
+#Mission p{
   margin: 3% 5%;
   width: 90%;
   text-align: justify;
 }
-#Mision ul{
+#Mission ul{
   margin: 3% 5%;
   width: 90%;
   text-align: justify;
 }
-#Mision li{
+#Mission li{
   width: 90%;
 }
 
@@ -27,17 +27,20 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
-  #Mision p{ font-size: 18px;}
+  #Mission p{ font-size: 18px;}
 }
 
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
-  #Mision .mission, #Mision .VO h3{text-align: center;}
-  #Mision .objetives-sp h3{padding-left:2%; }
-  #Mision .mission{width: 90%; margin:2% 5%; }
-  #Mision .vision{float: left; margin: 1% 1% 1% 8%;  width: 37%; height: auto;}
-  #Mision .objetives-sp{ display: inline-block; margin:2% 3%; width: 90%; height: auto;}
+  #Mission .mission h3, #Mission .vision h3, #Mission .objetives h3,
+  #Mission .objetives-sp h3{margin:0%; width: 100%;text-align: center;}
+
+  #Mission .mission{width: 90%; margin:2% 5%;}
+  #Mission .vision, #Mission .objetives{float: left; margin: 1% 1% 1% 8%; width: 37%; height: auto;}
+  #Mission .objetives-sp{ display: inline-block; margin:2% 5%;width: 90%; height: auto;}
+  #Mission ul{margin: 0;width: 100%;}
+  #Mission li{margin-top: 1.5%; margin-left: 25%; width: 50%;}
 
 }
 

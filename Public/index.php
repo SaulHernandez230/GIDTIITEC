@@ -8,12 +8,12 @@ require("../Sources/Components/Header.html");
 if(isset($request[4]))
   $url=$request[4];
 if(isset($request[5]))
-  $url=$request[5];
-switch ($url){
+  $url = $request[5];
+switch (UrlDecode($url)){
   case 'Antecedentes.php':
     require("../Sources/Views/Records.php");
     break;
-  case 'Mision.php':
+  case 'Misión.php':
     require("../Sources/Views/Mission.php");
     break;
   case 'Proyectos.php':
@@ -22,7 +22,7 @@ switch ($url){
   case 'Premios.php':
     require("../Sources/Views/Rewards.php");
     break;
-  case 'Contactanos.php':
+  case 'Contáctanos.php':
     require("../Sources/Views/ContactUs.php");
     break;
   default:

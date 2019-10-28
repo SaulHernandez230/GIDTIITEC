@@ -56,7 +56,10 @@ body{
 #Header ol{
   margin: 0;
   padding: 0;
+}
+#Header li{
   font-size: 20px;
+  margin-left: 2%;
 }
 
 /* Small devices (landscape phones, 480px and up) */

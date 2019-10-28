@@ -1,6 +1,10 @@
 img:hover{
   cursor: zoom-in;
 }
+#Header img, #Rewards img,#gallery img{
+  cursor: default;
+  pointer-events: none;
+}
 #zoom-modal img{
   cursor: pointer;
 }
