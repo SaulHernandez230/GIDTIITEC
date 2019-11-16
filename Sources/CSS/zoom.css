@@ -1,9 +1,13 @@
 img:hover{
   cursor: zoom-in;
 }
-#Header img, #Rewards img,#gallery img{
+#Header img, #Rewards img,#gallery img,#imgWelcome{
   cursor: default;
   pointer-events: none;
+}
+#zoom-modal .modal-content{
+  width: 100%;
+  min-height: 500px;
 }
 #zoom-modal img{
   cursor: pointer;
@@ -19,6 +23,8 @@ img:hover{
   margin-top: 1%;
   font-size: 30px;
 }
+
 #zoom-modal img{
   width: 100%;
+  max-height: 500px;
 }

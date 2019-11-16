@@ -5,18 +5,13 @@ $(document).ready(function(){
     var currentPageId = this.id
     var currentPage = this.textContent
     var bCurrentPageId = "b"+this.id
-
     speechSynthesis.cancel()
 
     sessionStorage.setItem("saveClass","nav-link active")
     sessionStorage.setItem("anchorId",currentPageId)
     sessionStorage.setItem("breadId",bCurrentPageId)
 
-    if(currentPage == "Inicio")
-      window.location = "/GIDTIITEC/Public/index.php/";
-
-    else
-      window.location = "/GIDTIITEC/Public/index.php/"+currentPage + ".php";
+    window.location = "/GIDTIITEC/Public/index.php/"+currentPage + ".php";
   });
 
   var anchor = document.getElementById(sessionStorage.getItem("anchorId"))

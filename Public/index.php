@@ -26,10 +26,9 @@ switch (UrlDecode($url)){
     require("../Sources/Views/ContactUs.php");
     break;
   default:
-      // require_once __DIR__ . '/index.php';
       require("../Sources/Views/Home.php");
       break;
 }
-require('../Sources/Views/Zoom.php');
+require('../Sources/Components/Zoom.php');
 require("../Sources/Components/footer.html");
 ?>

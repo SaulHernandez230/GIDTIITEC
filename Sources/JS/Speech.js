@@ -17,26 +17,30 @@
     }
 
     //Codigo para la reproduccion del audio de la pagina
+    function inicio(){
+      let paragraph1 = document.getElementById("paragraph1").textContent;
+      speech("¿Quiénes Somos?",paragraph1)
+    }
     function antecedentes(){
-      var paragraph1 = document.getElementById("paragraph1").textContent;
-      var paragraph2 = document.getElementById("paragraph2").textContent;
-      var paragraph3 = document.getElementById("paragraph3").textContent;
+      let paragraph1 = document.getElementById("paragraph1").textContent;
+      let paragraph2 = document.getElementById("paragraph2").textContent;
+      let paragraph3 = document.getElementById("paragraph3").textContent;
       speech("",paragraph1)
       speech("",paragraph2)
       speech("",paragraph3)
     }
     function mision(){
-      var paragraph1 = document.getElementById("paragraph1").textContent;
-      var paragraph2 = document.getElementById("paragraph2").textContent;
-      var paragraph3 = document.getElementById("paragraph3").textContent;
+      let paragraph1 = document.getElementById("paragraph1").textContent;
+      let paragraph2 = document.getElementById("paragraph2").textContent;
+      let paragraph3 = document.getElementById("paragraph3").textContent;
 
-      var objetive1 = document.getElementById("objetive1").textContent;
-      var objetive2 = document.getElementById("objetive2").textContent;
-      var objetive3 = document.getElementById("objetive3").textContent;
-      var objetive4 = document.getElementById("objetive4").textContent;
-      var objetive5 = document.getElementById("objetive5").textContent;
-      var objetive6 = document.getElementById("objetive6").textContent;
-      var objetive7 = document.getElementById("objetive7").textContent;
+      let objetive1 = document.getElementById("objetive1").textContent;
+      let objetive2 = document.getElementById("objetive2").textContent;
+      let objetive3 = document.getElementById("objetive3").textContent;
+      let objetive4 = document.getElementById("objetive4").textContent;
+      let objetive5 = document.getElementById("objetive5").textContent;
+      let objetive6 = document.getElementById("objetive6").textContent;
+      let objetive7 = document.getElementById("objetive7").textContent;
 
       speech("Misión",paragraph1)
       speech("Visión",paragraph2)
@@ -51,14 +55,14 @@
       speech("",objetive7)
     }
     function proyectos(){
-      var proyect1 = document.getElementById("proyect1").textContent;
-      var proyect2 = document.getElementById("proyect2").textContent;
-      var proyect3 = document.getElementById("proyect3").textContent;
-      var proyect4 = document.getElementById("proyect4").textContent;
-      var proyect5 = document.getElementById("proyect5").textContent;
-      var proyect6 = document.getElementById("proyect6").textContent;
-      var proyect7 = document.getElementById("proyect7").textContent;
-      var proyect8 = document.getElementById("proyect8").textContent;
+      let proyect1 = document.getElementById("proyect1").textContent;
+      let proyect2 = document.getElementById("proyect2").textContent;
+      let proyect3 = document.getElementById("proyect3").textContent;
+      let proyect4 = document.getElementById("proyect4").textContent;
+      let proyect5 = document.getElementById("proyect5").textContent;
+      let proyect6 = document.getElementById("proyect6").textContent;
+      let proyect7 = document.getElementById("proyect7").textContent;
+      let proyect8 = document.getElementById("proyect8").textContent;
 
       speech("Silla de ruedas motorizada",proyect1)
       speech("Hybri-voz",proyect2)
@@ -70,7 +74,7 @@
       speech("Robot controlado por señales del cerebro",proyect8)
     }
     function dft(){
-      var texto = "Navega por nuestra pagina para poder utilizar el lector de texto"
+      let texto = "Navega por nuestra pagina para poder utilizar el lector de texto"
       speech("",texto)
     }
     function speech(titulo,texto){
@@ -78,10 +82,9 @@
       speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
     }
     function startSpeech(){
-      var currentPage = getURI()
-      var fn = window[currentPage]
+      let currentPage = getURI()
+      let fn = window[currentPage]
       fn()
-
     }
     function stopSpeech(){
       speechSynthesis.cancel()
