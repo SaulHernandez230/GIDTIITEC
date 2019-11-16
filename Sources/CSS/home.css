@@ -46,7 +46,8 @@
   #Home h1{font-size: 25px; top: 40%;}
   #Home a{margin: 0% 1%; left:70%; top:200px;}
   #Home #imgWelcome{max-height: 250px;}
-  #Home p{ font-size: 26px;}
+  #Home p{font-size: 23px;}
+  #Home h2{margin: 5% 14% 2% 0;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -55,4 +56,6 @@
   #Home h1{font-size: 28px; bottom: 33px;}
   #Home a{margin: 0% 1%; left:70%; top:230px; font-size: 22px;}
   #Home #imgWelcome{max-height: 290px;}
+  #Home h2{margin: 7% 15% 2% 0;}
+  #Home p{font-size: 24px;}
 }
