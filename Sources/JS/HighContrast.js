@@ -9,16 +9,18 @@ function changeContrast(){
   highContrast()
 }
 function highContrast(){
-  var adjust = document.getElementById("link9")
+  var contrast = document.getElementById("link10")
   var logo = document.getElementById("logo")
   var mode = sessionStorage.getItem("mode")
   if( mode === "dark"){
     $('#nav').removeClass("bg-light");
-    adjust.href="/GIDTIITEC/Sources/CSS/highContrast.css"
+    $('*').removeClass("light")
+    $('*').addClass("dark")
     logo.src= "/GIDTIITEC/Sources/Img/gidtiitec1.png"
   }else{
     $('#nav').addClass("bg-light");
-    adjust.href=""
+    $('*').removeClass("dark")
+    $('*').addClass("light");
     logo.src= "/GIDTIITEC/Sources/Img/gidtiitec.png"
   }
 }

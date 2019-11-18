@@ -1,15 +1,17 @@
-#nav,#Records,#Proyects,#ContactUs,#Proyects #carousel,#Mission,body, #Proyects #gallery div{
+.dark #nav, .dark #Records, .dark #Proyects,.dark #ContactUs, .dark #Proyects #carousel,.dark #Mission,.dark body, 
+.dark #Proyects #gallery div{
   background: #282828;
 }
-#zoom-modal div,#Rewards .card,#Proyects .proyect, #Header ol,footer, #ContactUs form{
+.dark #zoom-modal div,.dark #Rewards .card,.dark #Proyects .proyect,.dark #Header ol,.dark footer,.dark #ContactUs form{
   background: rgba(28,28,28,.9)
 }
 
-#ContactUs span,#nav a,p,a,li,h3,h6,h2,h1,span{
+.dark #ContactUs span,.dark #nav a,.dark p,.dark a,.dark li,.dark h3,.dark h6,.dark h2,.dark h1,.dark span,
+.dark label{
   color: white;
 }
 
-#nav button, #ContactUs button, #Proyects .proyect button, #Proyects button{
+.dark #nav button,.dark #ContactUs .dark button,.dark #Proyects .proyect button,.dark #Proyects button{
   color:white;
   background: #282828;
   border-style: ridge;

@@ -1,7 +1,7 @@
 //activar y desactivar anchor
 $(document).ready(function(){
+  
   $("a").click(function(){
-
     var currentPageId = this.id
     var currentPage = this.textContent
     var bCurrentPageId = "b"+this.id
@@ -18,8 +18,6 @@ $(document).ready(function(){
   var bread = document.getElementById(sessionStorage.getItem("breadId"))
   anchor.className =sessionStorage.getItem("saveClass")
   bread.style ="display:initial"
-  if(sessionStorage.getItem("mode")!= null){
-    var fn = window["highContrast"]
+  var fn = window["highContrast"]
     fn()
-  }
 });

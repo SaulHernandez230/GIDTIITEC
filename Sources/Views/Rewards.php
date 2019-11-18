@@ -8,12 +8,12 @@
         <div class="card my-3">
           <div class=" card-body">
             <h5 class="card-title"><img src="../../Sources/Img/medalSilver.svg" alt="Medalla plata"></h5>
-            <p class="card-text">21° Semana Nacional de Ciencia y Tecnología.</p><br><br>
+            <p class="card-text">21° Semana Nacional de Ciencia y Tecnología.</p>
             <ul class="list-unstyled">
-              <li><b>Proyecto: </b>Con-Ciencia. </li><br>
-              <li><b>Fecha: </b>15 de octubre de 2014.</li><br>
-              <li><b>Categoría: </b>Nivel superior.</li><br>
-              <li><b>Reconocimiento: </b>2do Lugar.</li><br><br>
+              <li><b>Proyecto: </b>Con-Ciencia. </li>
+              <li><b>Fecha: </b>15 de octubre de 2014.</li>
+              <li><b>Categoría: </b>Nivel superior.</li>
+              <li><b>Reconocimiento: </b>2do Lugar.</li>
             </ul>
           </div>
         </div>
@@ -22,12 +22,12 @@
         <div class="card my-3">
           <div class=" card-body">
             <h5 class="card-title"><img src="../../Sources/Img/medalGold.svg" alt="Medalla plata"></h5>
-            <p class="card-text">22ª semana nacional de ciencia y tecnología.</p><br><br>
+            <p class="card-text">22ª semana nacional de ciencia y tecnología.</p>
             <ul class="list-unstyled">
-              <li><b>Proyecto: </b>Con_Ciencia 2.1</li><br>
-              <li><b>Fecha: </b>22 de octubre de 2015.</li><br>
-              <li><b>Categoría: </b>Nivel superior.</li><br>
-              <li><b>Reconocimiento: </b>1er Lugar.</li><br><br>
+              <li><b>Proyecto: </b>Con_Ciencia 2.1</li>
+              <li><b>Fecha: </b>22 de octubre de 2015.</li>
+              <li><b>Categoría: </b>Nivel superior.</li>
+              <li><b>Reconocimiento: </b>1er Lugar.</li>
             </ul>
           </div>
         </div>
@@ -54,12 +54,12 @@
         <div class="card my-3">
           <div class=" card-body">
             <h5 class="card-title"><img src="../../Sources/Img/medalSilver.svg" alt="Medalla plata"></h5>
-            <p class="card-text">23ª semana nacional de ciencia y tecnología.</p><br>
+            <p class="card-text">23ª semana nacional de ciencia y tecnología.</p>
             <ul class="list-unstyled">
-              <li><b>Proyecto: </b>Con_Ciencia Pi.</li><br>
-              <li><b>Fecha: </b>3 de diciembre de 2016.</li><br>
-              <li><b>Categoría: </b>Nivel superior.</li><br>
-              <li><b>Reconocimiento: </b>2do Lugar.</li><br>
+              <li><b>Proyecto: </b>Con_Ciencia Pi.</li>
+              <li><b>Fecha: </b>3 de diciembre de 2016.</li>
+              <li><b>Categoría: </b>Nivel superior.</li>
+              <li><b>Reconocimiento: </b>2do Lugar.</li>
             </ul>
           </div>
         </div>
@@ -74,8 +74,10 @@
               <li><b>Area: </b>Ciencias de la ingeniería.</li>
               <li><b>Fecha: </b> 7 al 10 de diciembre de 2016.</li>
               <li><b>Categoría: </b> Nivel superior.</li>
-              <li><b>Reconocimiento: </b>Se obtuvo la acreditación para representar a México en la Expo Ciencias
-                Internacional en la sede de Bruselas, Bélgica.</li><br>
+              <li><b>Reconocimiento: </b>
+                Se obtuvo la acreditación para representar a México en la Expo Ciencias
+                Internacional en la sede de Bruselas, Bélgica.
+              </li>
             </ul>
           </div>
         </div>
@@ -86,9 +88,9 @@
             <h5 class="card-title"><img src="../../Sources/Img/document.svg" alt="Medalla plata"></h5>
             <p class="card-text">Expo Ciencias Internacional Bruselas, Bélgica 2017.</p>
             <ul class="list-unstyled">
-              <br><li><b>Proyecto: </b>Con_Ciencia Pi.</li><br>
-              <li><b>Area: </b>Ciencias de la ingeniería.</li><br>
-              <li><b>Fecha: </b>Abril 2017.</li><br>
+              <li><b>Proyecto: </b>Con_Ciencia Pi.</li>
+              <li><b>Area: </b>Ciencias de la ingeniería.</li>
+              <li><b>Fecha: </b>Abril 2017.</li>
               <li><b>Reconocimiento: </b>Constancia de participación.</li>
             </ul>
           </div>
@@ -100,9 +102,9 @@
             <h5 class="card-title"><img src="../../Sources/Img/document.svg" alt="Medalla plata"></h5>
             <p class="card-text">Ciencia en Acción (1ra Etapa)</p>
             <ul class="list-unstyled">
-              <li><b>Proyecto: </b>Con_Ciencia Pi.</li><br>
-              <li><b>Fecha: </b>Marzo de 2017 a Mayo de 2017 (Etapa de selección)</li><br>
-              <li><b>Categoría:</b> Ciencia, Ingeniería y Valores.</li><br>
+              <li><b>Proyecto: </b>Con_Ciencia Pi.</li>
+              <li><b>Fecha: </b>Marzo de 2017 a Mayo de 2017 (Etapa de selección)</li>
+              <li><b>Categoría:</b> Ciencia, Ingeniería y Valores.</li>
               <li><b>Reconocimiento: </b>Se obtuvo la acreditación para representar a México en la sede de España en las
                 ciudades de Ermua y Eibar.</li>
             </ul>
@@ -117,9 +119,12 @@
             <ul class="list-unstyled">
               <li><b>Proyecto: </b>Con_Ciencia Pi.</li>
               <li><b>Fecha: </b>6 al 8 de octubre se celebró el concurso en la etapa final (demostración del prototipo).</li>
-              <li><b>Reconocimiento: </b>Por configurar un diseño y, al amparo del mismo, llegar a construir todo un artefacto, para que se
+              <li>
+                <b>Reconocimiento: </b>
+                Por configurar un diseño y, al amparo del mismo, llegar a construir todo un artefacto, para que se
                 respeten más los derechos de las personas con necesidades especiales, se concede Mención de Honor al
-                trabajo "Con Ciencia PI", reconocimiento a nivel Internacional.</li>
+                trabajo "Con Ciencia PI", reconocimiento a nivel Internacional.
+              </li>
             </ul>
           </div>
         </div>
@@ -128,12 +133,12 @@
         <div class="card my-3">
           <div class=" card-body">
             <h5 class="card-title"><img src="../../Sources/Img/medalGold.svg" alt="Medalla oro"></h5>
-            <p class="card-text">Feria Nacional de Ciencias e Ingenierías FENACI 2017.</p><br>
+            <p class="card-text">Feria Nacional de Ciencias e Ingenierías FENACI 2017.</p>
             <ul class="list-unstyled ">
-              <li><b>Proyecto: </b>Sam Speech</li><br>
-              <li><b>Categoría: </b>Ingeniería y Computación</li><br>
-              <li><b>Fecha: </b>Noviembre 2017</li><br>
-              <li><b>Reconocimiento: </b>1er. lugar</li><br><br>
+              <li><b>Proyecto: </b>Sam Speech</li>
+              <li><b>Categoría: </b>Ingeniería y Computación</li>
+              <li><b>Fecha: </b>Noviembre 2017</li>
+              <li><b>Reconocimiento: </b>1er. lugar</li>
             </ul>
           </div>
         </div>

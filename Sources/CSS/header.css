@@ -8,7 +8,6 @@ body{
   display: inline-block;
   width: 100%;
   height: auto;
-  background: rgb(239,238, 236);
 }
 #Header img{
   margin: 0%;
@@ -34,21 +33,17 @@ body{
 #nav button{
   padding: 1.5% 2%;
   font-size: 16px;
-  color:gray;
   background: none;
   border-radius: 6px;
   border-style: groove;
-  border-color: rgb(239,238, 236);
 }
 #nav a{
  margin: 1% 0% 0%;
  padding: 1%;
  font-size: 18px;
  border: solid;
- border-color: rgb(239,238, 236);
  text-align: center;
  border-radius: 6px;
- background: white;
 }
 #nav a:hover{
   cursor:pointer;
@@ -60,6 +55,17 @@ body{
 #Header li{
   font-size: 20px;
   margin-left: 2%;
+}
+.light body{
+  background: rgb(239,238, 236);
+}
+.light #nav button{
+  color:gray;
+  border-color: rgb(239,238, 236);
+}
+.light #nav a{
+  border-color: rgb(239,238, 236);
+  background: white;
 }
 
 /* Small devices (landscape phones, 480px and up) */
@@ -90,7 +96,7 @@ body{
   #navbar div{width: 100%; margin: 0; padding: 0;}
   #navbar a{
     margin: 0%; padding: 0 .5%;width: 25%; font-size: 16px; font-weight: 600;
-    border:none; background:none;
+    border:none; background:none !important;
   }
 }
 

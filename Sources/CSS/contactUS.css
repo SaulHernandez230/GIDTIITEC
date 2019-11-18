@@ -3,7 +3,6 @@
   margin: 2% 0;
   width: 100%;
   height: auto;
-  
 }
 #ContactUs h2{
   text-align: center;
@@ -12,11 +11,11 @@
   margin: 2% 5%;
   width: 90%;
 }
+
 #ContactUs form{
   margin: 2% 4%;
-  padding: 0;
+  padding: 1% 0 2%;
   width: 90%;
-  background: rgb(245, 245, 243);
 }
 #ContactUs span{
   display: block;
@@ -26,41 +25,68 @@
   font-size: 24px;
 }
 #ContactUs input, #ContactUs select,
-#ContactUs textarea, #ContactUs form button{
+#ContactUs textarea, #ContactUs button{
   display: block;
-  margin: 3% 0% 0% 15%;
-  padding: 0;
-  width: 70%;
-  border: ridge;
-  border-color:rgb(239,238, 236);
+  margin: 3% 0% .5% 12%;
+  width: 75%;
 }
-#ContactUs form select{
-  background: white;
+#ContactUs button{
+  font-weight: 600;
+}
+#ContactUs label{
+  margin: 0% 15%;
+}
+#ContactUs select{
   height: 30px;
+  padding: 0;
 }
+
+/*LIGHT CSS*/
+.light #ContactUs iframe{
+  box-shadow: 0 0 25px rgba(130,191,224,.6);
+}
+.light #ContactUs button{
+  background: rgb(130,191,224);
+  color: white;;
+}
+.light #ContactUs form{
+  background: rgba(245, 245, 243,.9);
+}
+.light #ContactUs input, .light #ContactUs select,
+.light #ContactUs textarea,.light #ContactUs button{
+  display: block;
+  margin: 3% 0% .5% 12%;
+  width: 75%;
+  background: rgba(245, 245, 243);
+  color:darkslategrey
+}
+
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
   #ContactUs iframe{ margin: 2% 10%; width: 80%;}
   #ContactUs form{ margin: 2% 15%; width: 70%;}
-  #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs form button{ margin: 2% 15%;}
+  #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs button{ margin: 2% 13%;}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
-  #ContactUs iframe{float: left; margin:5% 1% 0% 3%; width: 45%; height: 300px;}
-  #ContactUs form{ float: right; margin: 2% 3% 0% 1%;; width: 45%;}
-  #ContactUs span {  font-size: 24px; }
+  #ContactUs iframe{float: left; margin:7% 1% 0% 3%; width: 45%; height: 350px;}
+  #ContactUs form{float: right; margin: 0% 3% 0% 1%;; width: 45%;}
+  #ContactUs span{margin: 3% 0% 0% 0%; font-size: 24px; }
 }
 
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
-  #ContactUs iframe{margin:3% 1% 0% 3%; width: 45%; height: 350px;}
-  #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs form button{ width: 60% ;margin: 2% 20%;}
+  #ContactUs iframe{margin:5% 5% 0% 3%; width: 50%; height: 370px;}
+  #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs form button{ width: 60% ;margin: 2% 20% 1%;}
+  #ContactUs form{ margin: 2% 3% 0% 1%;; width: 35%;}
+  #ContactUs label{margin-top: 2%;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px)
 {
-
+  #ContactUs form{ margin: 2% 9% 0% 1%;; width: 30%;}
+  #ContactUs iframe{ width: 50%; height: 350px;}
 }

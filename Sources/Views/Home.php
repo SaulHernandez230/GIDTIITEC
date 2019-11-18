@@ -1,8 +1,6 @@
 <body>
   <div id="Home">
     <div>
-      <a id="a3" class="btn btn-success" role="button">Proyectos</a>
-      <a id="a6" class="btn btn-secondary" role="button">Contactanos</a>
       <img id="imgWelcome" src="/GIDTIITEC/Sources/Img/bienvenida.png" role="img" aria-labely="Grupo de invesitgacion y desarrollo de Tecnologias Inclusivas">
       <!-- <h1>Grupo de Investigación en Desarrollo de Tecnologías Inclusivas e Innovación Educativa</h1> -->
     </div>

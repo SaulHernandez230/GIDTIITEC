@@ -53,7 +53,7 @@ Records*{
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px)
 {
-  #Records h2{ margin:0; margin-top: 1%;}
+  #Records h2{ margin: 2%}
   #Records img{ max-height: 380px;}
   #Records p { margin: 2% 5%; font-size: 24px;}
 }
