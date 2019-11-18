@@ -7,9 +7,15 @@
 #ContactUs h2{
   text-align: center;
 }
-#ContactUs iframe{
+#ContactUs #frameContent{
+  float: left;
   margin: 2% 5%;
   width: 90%;
+}
+#ContactUs iframe{
+  margin: 2.5% 2.5%;
+  width: 95%;
+  height: 90%;
 }
 
 #ContactUs form{
@@ -42,18 +48,21 @@
 }
 
 /*LIGHT CSS*/
-.light #ContactUs iframe{
-  box-shadow: 0 0 25px rgba(130,191,224,.6);
-}
-.light #ContactUs button{
-  background: rgb(130,191,224);
-  color: white;;
-}
-.light #ContactUs form{
+#frameContent{
   background: rgba(245, 245, 243,.9);
 }
-.light #ContactUs input, .light #ContactUs select,
-.light #ContactUs textarea,.light #ContactUs button{
+#ContactUs iframe{
+  /* box-shadow: 0 0 25px rgba(130,191,224,.6); */
+}
+#ContactUs form button{
+  background: rgb(130,191,224);
+  color: white;
+}
+#ContactUs form{
+  background: rgba(245, 245, 243,.9);
+}
+#ContactUs input, #ContactUs select,
+#ContactUs textarea,#ContactUs button{
   display: block;
   margin: 3% 0% .5% 12%;
   width: 75%;
@@ -63,14 +72,14 @@
 
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px){
-  #ContactUs iframe{ margin: 2% 10%; width: 80%;}
+  #ContactUs #frameContent{ margin: 2% 10%; width: 80%;}
   #ContactUs form{ margin: 2% 15%; width: 70%;}
   #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs button{ margin: 2% 13%;}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
-  #ContactUs iframe{float: left; margin:7% 1% 0% 3%; width: 45%; height: 350px;}
+  #ContactUs #frameContent{float: left; margin:7% 1% 0% 3%; width: 45%; height: 350px;}
   #ContactUs form{float: right; margin: 0% 3% 0% 1%;; width: 45%;}
   #ContactUs span{margin: 3% 0% 0% 0%; font-size: 24px; }
 }
@@ -78,7 +87,7 @@
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px)
 {
-  #ContactUs iframe{margin:5% 5% 0% 3%; width: 50%; height: 370px;}
+  #ContactUs #frameContent{margin:5% 5% 0% 3%; width: 50%; height: 370px;}
   #ContactUs input, #ContactUs select, #ContactUs textarea, #ContactUs form button{ width: 60% ;margin: 2% 20% 1%;}
   #ContactUs form{ margin: 2% 3% 0% 1%;; width: 35%;}
   #ContactUs label{margin-top: 2%;}
@@ -88,5 +97,5 @@
 @media (min-width: 1200px)
 {
   #ContactUs form{ margin: 2% 9% 0% 1%;; width: 30%;}
-  #ContactUs iframe{ width: 50%; height: 350px;}
+  #ContactUs #frameContent{ width: 50%; height: 350px;}
 }

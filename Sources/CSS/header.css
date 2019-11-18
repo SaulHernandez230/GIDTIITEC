@@ -56,14 +56,14 @@ body{
   font-size: 20px;
   margin-left: 2%;
 }
-.light body{
+body{
   background: rgb(239,238, 236);
 }
-.light #nav button{
+#nav button{
   color:gray;
   border-color: rgb(239,238, 236);
 }
-.light #nav a{
+#nav a{
   border-color: rgb(239,238, 236);
   background: white;
 }
