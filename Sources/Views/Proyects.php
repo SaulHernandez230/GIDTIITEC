@@ -24,7 +24,6 @@
           <!--Carousel Item-->
           <div class="carousel-item">
             <!--Video-->
-            <img src="../../Sources/Img/gidtiitec.png">
             <iframe class="d-block " height="315"  src="https://www.youtube.com/embed/eu9tLt1OPGA" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!--title Video-->
@@ -35,7 +34,6 @@
           <!--Carousel Item-->
           <div class="carousel-item">
             <!--Video-->
-            <img src="../../Sources/Img/gidtiitec.png">
             <iframe class="d-block " height="315" src="https://www.youtube.com/embed/o2q7CoxniYA" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!--title Video-->
@@ -46,7 +44,6 @@
           <!--Carousel Item-->
           <div class="carousel-item">
             <!--Video-->
-            <img src="../../Sources/Img/gidtiitec.png">
             <iframe class="d-block " height="315"  src="https://www.youtube.com/embed/hs9QHfi419c" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!--title Video-->
@@ -55,14 +52,14 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselOptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev" href="#carouselOptions" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselOptions" role="button" data-slide="next">
+        </span>
+        <span class="carousel-control-next" href="#carouselOptions" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
-        </a>
+        </span>
       </div>
     </div>
     <!--Proyects information-->
@@ -89,7 +86,7 @@
     <div role="article" class="proyect">
       <h3>Hybri-voz</h3>
       <img src="../../Sources/Img/H4.png">
-      <div class="button-container">
+      <div  class="button-container">
         <p id="proyect2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -204,6 +201,7 @@
       <h3>Robot controlado por señales del cerebro</h3>
       <img src="../../Sources/Img/M4.png">
       <div class="button-container">
+
         <p id="proyect8">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

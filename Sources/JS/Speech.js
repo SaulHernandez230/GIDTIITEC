@@ -11,8 +11,12 @@
       if(request[6] != ""){
         url=request[6].split(".")
       }
+      url = decodeURI(url[0]).toLowerCase()
 
-      return url[0].toLowerCase()
+      if(url=="misión")
+       url = 'mision'
+
+      return url
 
     }
 

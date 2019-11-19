@@ -1,5 +1,9 @@
 *{
   box-sizing: border-box;
+  font-family: "Verona";
+}
+h1,h2,h3{
+  font-weight: 600;
 }
 #Header{
   z-index: 1;
@@ -44,6 +48,8 @@ body{
  border: solid;
  text-align: center;
  border-radius: 6px;
+ font-family: "Helvetica";
+ font-weight: bold;
 }
 #nav a:hover{
   cursor:pointer;
@@ -55,6 +61,8 @@ body{
 #Header li{
   font-size: 20px;
   margin-left: 2%;
+  font-family: "Helvetica";
+  font-weight: bold;
 }
 body{
   background: rgb(239,238, 236);
