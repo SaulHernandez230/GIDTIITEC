@@ -32,7 +32,7 @@
       <ul role="list" aria-label="Lista de objetivos Especificos">
         <!--objetivo especifico-->
         <li id="objetive1" role="listitem" aria-label="objetivo 1">
-          Mejorar la calidad de vida en los grupos vulnerables,a través de la generación de tecnologías inclusivas y
+          Mejorar la calidad de vida en los grupos vulnerables, através de la generación de tecnologías inclusivas y
           educativas.
         </li>
         <!--objetivo especifico-->

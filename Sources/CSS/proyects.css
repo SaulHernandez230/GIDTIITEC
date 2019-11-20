@@ -98,6 +98,7 @@
   #carousel iframe{ height: 450px;}
   #Proyects .proyect{margin: 2% 0;}
   #Proyects .proyect p {font-size:20px;}
+  #Proyects .proyect img {float: left; margin: 2% 3% 0%;  width: 35%; height: 290px;}
   #Proyects .button-container button{ min-height:40px; font-size: 23px; width:26%;}
 }
 
@@ -105,6 +106,12 @@
 @media (min-width: 1200px)
 {
   #carousel iframe{ height: 500px;}
+  #Proyects .proyect img {height: 310px;}
   #Proyects .proyect p {font-size:24px;}
   #Proyects .button-container button{ font-size: 24px; width:18%; padding: .5%;}
+}
+
+@media (min-width: 1600px)
+{
+  #Proyects .proyect img {height: 340px;}
 }

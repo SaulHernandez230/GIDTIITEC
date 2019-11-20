@@ -23,15 +23,15 @@
     //Codigo para la reproduccion del audio de la pagina
     function inicio(){
       let paragraph1 = document.getElementById("paragraph1").textContent;
-      speech("¿Quiénes Somos?",paragraph1)
+      speechTitle("¿Quiénes Somos?",paragraph1)
     }
     function antecedentes(){
       let paragraph1 = document.getElementById("paragraph1").textContent;
       let paragraph2 = document.getElementById("paragraph2").textContent;
       let paragraph3 = document.getElementById("paragraph3").textContent;
-      speech("",paragraph1)
-      speech("",paragraph2)
-      speech("",paragraph3)
+      speechTitle('Antecedentes',paragraph1)
+      speech(paragraph2)
+      speech(paragraph3)
     }
     function mision(){
       let paragraph1 = document.getElementById("paragraph1").textContent;
@@ -46,17 +46,17 @@
       let objetive6 = document.getElementById("objetive6").textContent;
       let objetive7 = document.getElementById("objetive7").textContent;
 
-      speech("Misión",paragraph1)
-      speech("Visión",paragraph2)
-      speech("objetives",paragraph3)
+      speechTitle("Misión",paragraph1)
+      speechTitle("Visión",paragraph2)
+      speechTitle("objetives",paragraph3)
 
-      speech("objetives Especificos",objetive1)
-      speech("",objetive2)
-      speech("",objetive3)
-      speech("",objetive4)
-      speech("",objetive5)
-      speech("",objetive6)
-      speech("",objetive7)
+      speechTitle("objetives Especificos",objetive1)
+      speech(objetive2)
+      speech(objetive3)
+      speech(objetive4)
+      speech(objetive5)
+      speech(objetive6)
+      speech(objetive7)
     }
     function proyectos(){
       let proyect1 = document.getElementById("proyect1").textContent;
@@ -68,22 +68,53 @@
       let proyect7 = document.getElementById("proyect7").textContent;
       let proyect8 = document.getElementById("proyect8").textContent;
 
-      speech("Silla de ruedas motorizada",proyect1)
-      speech("Hybri-voz",proyect2)
-      speech("Con Ciencia Pi",proyect3)
-      speech("Fidem Pad",proyect4)
-      speech("ComuniKT",proyect5)
-      speech("Sam Speech",proyect6)
-      speech("Guante ultrasónico",proyect7)
-      speech("Robot controlado por señales del cerebro",proyect8)
+      speechTitle("Silla de ruedas motorizada",proyect1)
+      speechTitle("Hybri-voz",proyect2)
+      speechTitle("Con Ciencia Pi",proyect3)
+      speechTitle("Fidem Pad",proyect4)
+      speechTitle("ComuniKT",proyect5)
+      speechTitle("Sam Speech",proyect6)
+      speechTitle("Guante ultrasónico",proyect7)
+      speechTitle("Robot controlado por señales del cerebro",proyect8)
+    }
+    function premios(){
+
+      speech("Premios y reconocimientos")
+      
+      let arrayTitles = document.querySelectorAll("p")
+      let arrayLiElements = document.querySelectorAll("ul > li")
+
+      let li = 0
+
+      for (let t = 0; t < arrayTitles.length; t++) {
+        console.log(t)
+        
+        const title = arrayTitles[t].textContent
+        const proyect = arrayLiElements[li].textContent
+        const date = arrayLiElements[li+1].textContent
+        const category = arrayLiElements[li+2].textContent
+        const recog = arrayLiElements[li+3].textContent
+        
+        li+=4
+        
+        speech(title)
+        speech(proyect)
+        speech(date)
+        speech(category)
+        speech(recog)    
+        
+      }
     }
     function dft(){
       let texto = "Navega por nuestra pagina para poder utilizar el lector de texto"
-      speech("",texto)
+      speech(texto)
+    }
+    function speechTitle(titulo,texto){
+      speechSynthesis.speak(new SpeechSynthesisUtterance(titulo));
+      speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
     }
     function speech(titulo,texto){
       speechSynthesis.speak(new SpeechSynthesisUtterance(titulo));
-      speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
     }
     function startSpeech(){
       let currentPage = getURI()

@@ -8,7 +8,7 @@
         <div class="card my-3">
           <div class=" card-body">
             <h5 class="card-title"><img src="../../Sources/Img/medalSilver.svg" alt="Medalla plata"></h5>
-            <p class="card-text">21° Semana Nacional de Ciencia y Tecnología.</p>
+            <p  class = "card-text">21° Semana Nacional de Ciencia y Tecnología.</p>
             <ul class="list-unstyled">
               <li><b>Proyecto: </b>Con-Ciencia. </li>
               <li><b>Fecha: </b>15 de octubre de 2014.</li>
@@ -39,7 +39,6 @@
             <p class="card-text">Expo Ciencia Sudcaliforniana 2016 (Etapa Estatal).</p>
             <ul class="list-unstyled">
               <li><b>Proyecto: </b>Con_Ciencia Pi.</li>
-              <li><b>Area: </b>Ciencias de la ingeniería.</li>
               <li><b>Fecha: </b>9 y 10 de junio de 2016.</li>
               <li><b>Categoría: </b>Nivel superior.</li>
               <li><b>Reconocimiento: </b>
@@ -71,7 +70,6 @@
             <p class="card-text">Expo Ciencias Nacional Villahermosa, Tabasco 2016.</p>
             <ul class="list-unstyled">
               <li><b>Proyecto: </b>Con_Ciencia Pi. </li>
-              <li><b>Area: </b>Ciencias de la ingeniería.</li>
               <li><b>Fecha: </b> 7 al 10 de diciembre de 2016.</li>
               <li><b>Categoría: </b> Nivel superior.</li>
               <li><b>Reconocimiento: </b>
@@ -119,6 +117,7 @@
             <ul class="list-unstyled">
               <li><b>Proyecto: </b>Con_Ciencia Pi.</li>
               <li><b>Fecha: </b>6 al 8 de octubre se celebró el concurso en la etapa final (demostración del prototipo).</li>
+              <li><b>Area: </b>Ciencias de la ingeniería.</li>
               <li>
                 <b>Reconocimiento: </b>
                 Por configurar un diseño y, al amparo del mismo, llegar a construir todo un artefacto, para que se

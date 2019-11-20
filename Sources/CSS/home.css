@@ -46,7 +46,11 @@
 @media (min-width: 1200px)
 {
   #Home h1{font-size: 28px; bottom: 33px;}
-  #Home h2{margin: 7% 15% 2% 0;}
+  #Home h2{margin: 7% 16% 2% 0;}
   #Home p{font-size: 24px;}
   #Home span + img{ max-height: 486px;}
+}
+@media (min-width: 1600px)
+{
+  #Home h2{margin: 7% 20% 2% 0;}
 }
