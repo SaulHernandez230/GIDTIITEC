@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  font-family: "";
+  font-family: "Helvetica";
 }
 button{
   outline: none;
@@ -122,5 +122,7 @@ body{
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px)
 {
+  #Header img{ width: 15%;}
   #nav a{font-size: 21px;}
+  #Header #nav{max-height: 80px;}
 }
